@@ -1,0 +1,5 @@
+2022-07-18 11:19:03 [restartedMain] INFO  c.e.blog.BlogWritingApplication - Starting BlogWritingApplication using Java 11.0.11 on DESKTOP-TQDLO7J with PID 11848 (C:\Users\Subhankar\Desktop\Project\BlogFactory\BlogFactory\blog\target\classes started by Subhankar in C:\Users\Subhankar\Desktop\Project\BlogFactory\BlogFactory\blog)
+2022-07-18 11:19:03 [restartedMain] INFO  c.e.blog.BlogWritingApplication - The following 1 profile is active: "dev"
+2022-07-18 11:19:09 [restartedMain] INFO  c.e.blog.BlogWritingApplication - Started BlogWritingApplication in 7.298 seconds (JVM running for 8.468)
+2022-07-18 11:19:59 [http-nio-9090-exec-2] INFO  c.e.blog.controller.UserController - trying to signUp with credential User(id=0, name=user2, email=newUser12@gmail.com, mobile=9932433012, userimg=null, username=user323, password=user123@1)
+2022-07-18 11:19:59 [http-nio-9090-exec-2] INFO  c.e.blog.service.UserServiceimpl - user registered successfully with credential User(id=1, name=user2, email=newUser12@gmail.com, mobile=9932433012, userimg=null, username=user323, password=user123@1)

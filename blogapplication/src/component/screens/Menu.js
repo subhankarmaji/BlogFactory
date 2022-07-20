@@ -42,7 +42,7 @@ function Menu(){
                     </a>
                 </IconContext.Provider>
                 <IconContext.Provider value={{ style:{height:20,width:20,marginRight:10}}}>
-                    <a href="#" className="list-group-item list-group-item-action"style={{borderRadius:"20px"}} >
+                    <a href="/signup" className="list-group-item list-group-item-action"style={{borderRadius:"20px"}} >
                             <IoIosPersonAdd/>
                         Sign Up
                     </a>

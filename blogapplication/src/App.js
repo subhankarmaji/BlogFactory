@@ -6,6 +6,7 @@ import pic from './component/assets/blogImage2.png'
 import {RiAccountCircleFill } from 'react-icons/ri';
 import { IconContext } from "react-icons";
 import Menu from "./component/screens/Menu";
+import Signup from "./component/screens/Signup";
 
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
             <div className="d-flex flex-column justify-content-center" style={{lineHeight:0.8}}>
               <h5 style={{}}>Hi There,</h5>
               <p >Don't have an account yet?</p>
-              <h6><a href="" style={{textDecoration:"none"}}>Get Started</a></h6>
+              <h6><a href="/signup" style={{textDecoration:"none"}}>Get Started</a></h6>
             </div>
           </div>
           <div className="mt-4">
@@ -38,6 +39,8 @@ function App() {
         <Router>
           <Routes>
             <Route exact path="/" element={<HomePage/> } />
+            <Route exact path="/signup" element={<Signup/> } />
+
             <Route exact path="*" element={<ErrorPage/>} />
           </Routes>
         </Router>

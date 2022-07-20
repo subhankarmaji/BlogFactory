@@ -1,5 +1,6 @@
 package com.example.blog.controller;
 
+import com.example.blog.entity.Login;
 import com.example.blog.entity.User;
 import com.example.blog.repository.UserRepo;
 import com.example.blog.service.UserService;
@@ -12,12 +13,6 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 public class UserController {
     private final Logger logger = LoggerFactory.getLogger(UserController.class);
-//    @GetMapping("/getMessage/{name}")
-//    public String getMessage(@PathVariable String name){
-//        logger.info("user accessed "+name);
-//        return "Welcome "+name;
-//
-//    }
     @Autowired
     private UserService userService;
     @PostMapping("/signup")
@@ -25,6 +20,12 @@ public class UserController {
         logger.info("trying to signUp with credential "+user.toString());
         return this.userService.signUp(user);
 
+    }
+
+    @PostMapping("/login")
+    ResponseEntity<String> login(@RequestBody Login login){
+        logger.info("trying to login with credential "+ login.toString());
+        return this.userService.login(login);
     }
 
 }
