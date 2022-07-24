@@ -10,6 +10,7 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
 import java.util.Optional;
 
 @Service
@@ -36,27 +37,41 @@ public class UserServiceimpl implements UserService{
         }
         try{
             userRepo.save(user);
-            logger.info("user registered successfully with credential "+user.toString());
+            logger.info("user registered successfully with credential {} ",user);
             return ResponseEntity.status(HttpStatus.OK).body("ok");
         }catch(Exception e){
-            logger.error("registration failed due to "+e);
+            logger.error("registration failed due to {}",e.toString());
             return ResponseEntity.badRequest().body("Error");
         }
     }
 
     @Override
-    public ResponseEntity<String> login(Login login) {
+    public ResponseEntity<User> login(Login login) {
         Optional<User> user = userRepo.findByEmail(login.getEmail());
         final String[] password = {""};
         final User[] userTemp = new User[1];
         user.ifPresent(item-> {password[0] = item.getPassword(); userTemp[0] =item;});
         boolean matched = password[0].equals(login.getPassword());
-        if(user.isPresent() && matched){
-            logger.info("login successfully " +user.toString());
-            return ResponseEntity.status(HttpStatus.OK).body(userTemp[0].toString());
+        if(user.isPresent() ) {
+            if(matched){
+                logger.info("login successfully {}" ,user);
+                return ResponseEntity.status(HttpStatus.OK).body(userTemp[0]);
+            }
+            logger.error("unsuccessful login attempt due to wrong password  {}", login);
+            return ResponseEntity.badRequest().body(null);
         }
-        if(!user.isPresent()) logger.error("no user found using the email" +login.getEmail());
-        if(user.isPresent() && !matched) logger.error("unsuccessful login attempt due to wrong password " +login.toString());
-        return ResponseEntity.badRequest().body("invalid username or password" );
+        logger.error("no user found using the email {}" ,login.getEmail());
+        return ResponseEntity.badRequest().body(null);
+    }
+
+    @Override
+    public ResponseEntity<?> getalluser() {
+        try{
+
+            return new ResponseEntity<>(this.userRepo.findAll(),HttpStatus.OK);
+        }
+        catch(Exception e){
+            return ResponseEntity.badRequest().body(null);
+        }
     }
 }
