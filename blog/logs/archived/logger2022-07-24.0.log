@@ -1,0 +1,74 @@
+2022-07-24 11:54:08 [restartedMain] INFO  c.e.blog.BlogWritingApplication - Starting BlogWritingApplication using Java 11.0.11 on DESKTOP-TQDLO7J with PID 21444 (C:\Users\Subhankar\Desktop\Project\BlogFactory\BlogFactory\blog\target\classes started by Subhankar in C:\Users\Subhankar\Desktop\Project\BlogFactory\BlogFactory\blog)
+2022-07-24 11:54:08 [restartedMain] INFO  c.e.blog.BlogWritingApplication - The following 1 profile is active: "dev"
+2022-07-24 11:54:17 [restartedMain] INFO  c.e.blog.BlogWritingApplication - Started BlogWritingApplication in 10.279 seconds (JVM running for 11.47)
+2022-07-24 11:55:54 [http-nio-9090-exec-1] INFO  c.e.blog.controller.UserController - trying to signUp with credential User(id=0, name=user1, email=newUser123@gmail.com, mobile=5443533133, userimg=null, username=newUser123, password=user123@1, blogs=[]) 
+2022-07-24 11:55:55 [http-nio-9090-exec-1] INFO  c.e.blog.service.UserServiceimpl - user registered successfully with credential User(id=1, name=user1, email=newUser123@gmail.com, mobile=5443533133, userimg=null, username=newUser123, password=user123@1, blogs=[]) 
+2022-07-24 11:56:02 [http-nio-9090-exec-3] INFO  c.e.blog.controller.UserController - trying to signUp with credential User(id=0, name=user2, email=newUser123@gmail.com, mobile=5443533133, userimg=null, username=newUser123, password=user123@1, blogs=[]) 
+2022-07-24 11:56:02 [http-nio-9090-exec-3] ERROR c.e.blog.service.UserServiceimpl - email already exist
+2022-07-24 11:56:08 [http-nio-9090-exec-5] INFO  c.e.blog.controller.UserController - trying to signUp with credential User(id=0, name=user2, email=newUser223@gmail.com, mobile=5443533133, userimg=null, username=newUser123, password=user123@1, blogs=[]) 
+2022-07-24 11:56:08 [http-nio-9090-exec-5] ERROR c.e.blog.service.UserServiceimpl - mobile number already exist
+2022-07-24 11:56:24 [http-nio-9090-exec-7] INFO  c.e.blog.controller.UserController - trying to signUp with credential User(id=0, name=user2, email=newUser223@gmail.com, mobile=5443533233, userimg=null, username=newUser123, password=user123@1, blogs=[]) 
+2022-07-24 11:56:24 [http-nio-9090-exec-7] ERROR c.e.blog.service.UserServiceimpl - username already exist
+2022-07-24 11:56:30 [http-nio-9090-exec-10] INFO  c.e.blog.controller.UserController - trying to signUp with credential User(id=0, name=user2, email=newUser223@gmail.com, mobile=5443533233, userimg=null, username=newUser223, password=user123@1, blogs=[]) 
+2022-07-24 11:56:30 [http-nio-9090-exec-10] INFO  c.e.blog.service.UserServiceimpl - user registered successfully with credential User(id=2, name=user2, email=newUser223@gmail.com, mobile=5443533233, userimg=null, username=newUser223, password=user123@1, blogs=[]) 
+2022-07-24 11:58:03 [http-nio-9090-exec-1] INFO  c.e.blog.controller.UserController - trying to login with credential Login(email=newUser223@gmail.com, password=user123@1)
+2022-07-24 11:58:03 [http-nio-9090-exec-1] INFO  c.e.blog.service.UserServiceimpl - login successfully Optional[User(id=2, name=user2, email=newUser223@gmail.com, mobile=5443533233, userimg=null, username=newUser223, password=user123@1, blogs=[])]
+2022-07-24 11:58:14 [http-nio-9090-exec-3] INFO  c.e.blog.controller.UserController - trying to login with credential Login(email=newUser123@gmail.com, password=user123@1)
+2022-07-24 11:58:14 [http-nio-9090-exec-3] INFO  c.e.blog.service.UserServiceimpl - login successfully Optional[User(id=1, name=user1, email=newUser123@gmail.com, mobile=5443533133, userimg=null, username=newUser123, password=user123@1, blogs=[])]
+2022-07-24 11:58:20 [http-nio-9090-exec-4] INFO  c.e.blog.controller.UserController - trying to login with credential Login(email=newUser223@gmail.com, password=user123@1)
+2022-07-24 11:58:20 [http-nio-9090-exec-4] INFO  c.e.blog.service.UserServiceimpl - login successfully Optional[User(id=2, name=user2, email=newUser223@gmail.com, mobile=5443533233, userimg=null, username=newUser223, password=user123@1, blogs=[])]
+2022-07-24 11:58:24 [http-nio-9090-exec-5] INFO  c.e.blog.controller.UserController - trying to login with credential Login(email=newUser423@gmail.com, password=user123@1)
+2022-07-24 11:58:24 [http-nio-9090-exec-5] ERROR c.e.blog.service.UserServiceimpl - no user found using the email newUser423@gmail.com
+2022-07-24 11:58:47 [http-nio-9090-exec-7] INFO  c.e.blog.controller.UserController - trying to login with credential Login(email=newUser123@gmail.com, password=user223@1)
+2022-07-24 11:58:47 [http-nio-9090-exec-7] ERROR c.e.blog.service.UserServiceimpl - unsuccessful login attempt due to wrong password  Login(email=newUser123@gmail.com, password=user223@1)
+2022-07-24 12:02:31 [http-nio-9090-exec-3] INFO  c.e.blog.controller.BlogController - submitting blog from userid 4
+2022-07-24 12:02:31 [http-nio-9090-exec-3] ERROR c.e.blog.service.BlogServiceimpl - blog can't saved due to java.lang.NullPointerException
+2022-07-24 12:02:59 [http-nio-9090-exec-5] INFO  c.e.blog.controller.BlogController - submitting blog from userid 1
+2022-07-24 12:02:59 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - user saved in user's profile
+2022-07-24 12:03:30 [http-nio-9090-exec-6] INFO  c.e.blog.controller.BlogController - submitting blog from userid 2
+2022-07-24 12:03:30 [http-nio-9090-exec-6] INFO  c.e.blog.service.BlogServiceimpl - user saved in user's profile
+2022-07-24 12:03:51 [http-nio-9090-exec-7] INFO  c.e.blog.controller.BlogController - submitting blog from userid 1
+2022-07-24 12:03:51 [http-nio-9090-exec-7] INFO  c.e.blog.service.BlogServiceimpl - user saved in user's profile
+2022-07-24 12:04:32 [http-nio-9090-exec-10] INFO  c.e.blog.controller.UserController - requested all users information
+2022-07-24 12:06:14 [http-nio-9090-exec-1] INFO  c.e.blog.controller.VoteController - voting start
+2022-07-24 12:06:14 [http-nio-9090-exec-1] INFO  c.e.blog.service.VoteServiceimpl - vote complete for user 1
+2022-07-24 12:06:27 [http-nio-9090-exec-3] INFO  c.e.blog.controller.VoteController - voting start
+2022-07-24 12:06:27 [http-nio-9090-exec-3] INFO  c.e.blog.service.VoteServiceimpl - vote complete for user 2
+2022-07-24 12:06:34 [http-nio-9090-exec-4] INFO  c.e.blog.controller.VoteController - voting start
+2022-07-24 12:06:34 [http-nio-9090-exec-4] INFO  c.e.blog.service.VoteServiceimpl - vote complete for user 2
+2022-07-24 12:06:42 [http-nio-9090-exec-5] INFO  c.e.blog.controller.VoteController - voting start
+2022-07-24 12:06:42 [http-nio-9090-exec-5] ERROR c.e.blog.service.VoteServiceimpl - failed voting due java.lang.NullPointerException
+2022-07-24 12:06:51 [http-nio-9090-exec-7] INFO  c.e.blog.controller.VoteController - voting start
+2022-07-24 12:06:51 [http-nio-9090-exec-7] INFO  c.e.blog.service.VoteServiceimpl - vote complete for user 5
+2022-07-24 12:07:38 [http-nio-9090-exec-8] INFO  c.e.blog.controller.UserController - requested all users information
+2022-07-24 12:08:30 [http-nio-9090-exec-10] INFO  c.e.blog.controller.VoteController - voting start
+2022-07-24 12:08:30 [http-nio-9090-exec-10] WARN  c.e.blog.service.VoteServiceimpl - unvoting blog 1 by user 5
+2022-07-24 12:08:36 [http-nio-9090-exec-9] INFO  c.e.blog.controller.UserController - requested all users information
+2022-07-24 12:09:06 [http-nio-9090-exec-2] INFO  c.e.blog.controller.BlogController - request for all blogs
+2022-07-24 12:09:06 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
+2022-07-24 12:09:06 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
+2022-07-24 13:20:47 [restartedMain] INFO  c.e.blog.BlogWritingApplication - Starting BlogWritingApplication using Java 11.0.11 on DESKTOP-TQDLO7J with PID 21444 (C:\Users\Subhankar\Desktop\Project\BlogFactory\BlogFactory\blog\target\classes started by Subhankar in C:\Users\Subhankar\Desktop\Project\BlogFactory\BlogFactory\blog)
+2022-07-24 13:20:47 [restartedMain] INFO  c.e.blog.BlogWritingApplication - The following 1 profile is active: "dev"
+2022-07-24 13:20:50 [restartedMain] INFO  c.e.blog.BlogWritingApplication - Started BlogWritingApplication in 2.439 seconds (JVM running for 5207.053)
+2022-07-24 13:20:51 [restartedMain] INFO  c.e.blog.BlogWritingApplication - Starting BlogWritingApplication using Java 11.0.11 on DESKTOP-TQDLO7J with PID 21444 (C:\Users\Subhankar\Desktop\Project\BlogFactory\BlogFactory\blog\target\classes started by Subhankar in C:\Users\Subhankar\Desktop\Project\BlogFactory\BlogFactory\blog)
+2022-07-24 13:20:51 [restartedMain] INFO  c.e.blog.BlogWritingApplication - The following 1 profile is active: "dev"
+2022-07-24 13:20:53 [restartedMain] INFO  c.e.blog.BlogWritingApplication - Started BlogWritingApplication in 1.376 seconds (JVM running for 5210.11)
+2022-07-24 13:21:11 [http-nio-9090-exec-2] INFO  c.e.blog.controller.BlogController - request for all blogs
+2022-07-24 13:21:11 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
+2022-07-24 13:21:11 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
+2022-07-24 13:21:40 [http-nio-9090-exec-3] INFO  c.e.blog.controller.BlogController - getting blog of the day
+2022-07-24 13:21:40 [http-nio-9090-exec-3] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
+2022-07-24 13:22:39 [http-nio-9090-exec-4] INFO  c.e.blog.controller.VoteController - voting start
+2022-07-24 13:22:39 [http-nio-9090-exec-4] WARN  c.e.blog.service.VoteServiceimpl - unvoting blog 2 by user 2
+2022-07-24 13:23:16 [http-nio-9090-exec-6] INFO  c.e.blog.controller.BlogController - request for all blogs
+2022-07-24 13:23:16 [http-nio-9090-exec-6] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
+2022-07-24 13:23:17 [http-nio-9090-exec-6] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
+2022-07-24 13:23:34 [http-nio-9090-exec-7] INFO  c.e.blog.controller.VoteController - voting start
+2022-07-24 13:23:34 [http-nio-9090-exec-7] INFO  c.e.blog.service.VoteServiceimpl - vote complete for user 2
+2022-07-24 13:23:41 [http-nio-9090-exec-8] INFO  c.e.blog.controller.VoteController - voting start
+2022-07-24 13:23:41 [http-nio-9090-exec-8] INFO  c.e.blog.service.VoteServiceimpl - vote complete for user 1
+2022-07-24 13:24:24 [http-nio-9090-exec-9] INFO  c.e.blog.controller.BlogController - request for all blogs
+2022-07-24 13:24:24 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
+2022-07-24 13:24:24 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
+2022-07-24 13:24:38 [http-nio-9090-exec-10] INFO  c.e.blog.controller.BlogController - getting blog of the day
+2022-07-24 13:24:38 [http-nio-9090-exec-10] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!

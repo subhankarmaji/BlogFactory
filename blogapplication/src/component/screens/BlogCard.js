@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Loader from './Loader';
 import {GiCrownedHeart} from 'react-icons/gi';
 import {FaArrowAltCircleRight} from 'react-icons/fa';
@@ -6,6 +6,7 @@ import { IconContext } from "react-icons";
 import Modal from './Modal';
 
 function BlogCard(props){
+
     const [openModal,setOpenModal] = useState(false);
     return(
         <div className='d-flex align-items-center' style={{height:"220px",width:"550px"}}>

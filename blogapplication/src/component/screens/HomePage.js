@@ -1,19 +1,29 @@
 import React, { useEffect, useState } from "react";
-import blogger from '../assets/blogger.jpg';
+import blogger from '../assets/blogger.gif';
 import {FcIdea} from 'react-icons/fc';
 import {BsCheckCircleFill} from 'react-icons/bs';
 import { IconContext } from "react-icons";
 import BlogCard from "./BlogCard";
 import Typewriter from 'typewriter-effect';
-import data from '../assets/data'
+import axios from "axios";
+import base_url from "../api/Bootapi";
 
 
 function HomePage(){
-
+    const getBlogOftheDay=()=>{
+        axios.get(`${base_url}/blogOfTheDay`).then(
+          (response)=>{
+            setBlogOftheDay(response.data);
+          
+          },(error)=>{
+            console.log(error);
+          }
+        )
+      }
     useEffect(()=>{
         // setTimeout(() => { setBlogOftheDay (data);  }, 2000);
-        setBlogOftheDay(data);
-        
+        getBlogOftheDay();
+        console.log(blogOftheDay);
         },[]);
     const [blogOftheDay,setBlogOftheDay] = useState([null]);
     return (
@@ -39,7 +49,7 @@ function HomePage(){
 
                 </div>
                 <div className="mt-4 d-flex justify-content-center align-items-center" style={{backgroundColor:"white" ,height:"250px",width:"250px", borderRadius:"500px 30px 80px 70px",}}>
-                    <img src={blogger} style={{height:"200px",width:"200px",borderRadius:"100px",boxShadow:"2px 2px 5px #66BFBF"}}/>
+                    <img src={blogger} style={{height:"220px",width:"300px",borderRadius:"100px",boxShadow:"2px 2px 5px #66BFBF"}}/>
                 </div>
             </div>
             <div className="d-flex justify-content-around flex-wrap">
