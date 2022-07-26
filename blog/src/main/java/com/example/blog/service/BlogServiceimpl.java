@@ -31,7 +31,7 @@ public class BlogServiceimpl implements BlogService{
         try{
             Optional<User> user = this.userRepo.findById(blog.getUid());
             final User[] userTemp = new User[1];
-            user.ifPresent(item-> {userTemp[0] =item;});
+            user.ifPresent(item-> userTemp[0] =item);
 
             //adding blog to user end
             userTemp[0].getBlogs().add(blog);
@@ -55,7 +55,7 @@ public class BlogServiceimpl implements BlogService{
         temp.setVoters(b.getVotes());
         Optional<User> user = this.userRepo.findById(b.getUid());
         final User[] userTemp = new User[1];
-        user.ifPresent(item-> {userTemp[0] =item;});
+        user.ifPresent(item-> userTemp[0] =item);
         temp.setAuthor(userTemp[0].getName());
         temp.setAuthorpic(userTemp[0].getUserimg());
         return temp;

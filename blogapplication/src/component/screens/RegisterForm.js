@@ -1,6 +1,6 @@
 import React from 'react';
 import { Formik, Form} from 'formik';
-import TextBar from './TextBar';
+import {TextBar} from './TextBar';
 import * as Yup from 'yup';
 import { Link } from "react-router-dom";
 import { ToastContainer, toast } from 'react-toastify';

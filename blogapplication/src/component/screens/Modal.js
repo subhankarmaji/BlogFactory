@@ -5,6 +5,7 @@ import {GiCrownedHeart} from 'react-icons/gi';
 import { IconContext } from "react-icons";
 import base_url from "../api/Bootapi";
 import axios from "axios";
+import blogImage1 from '../assets/blogImage1.png';
 function Modal(props){
     const[user,setUser]=useState(null);
     const[allvoter,setAllVoter] = useState([]);
@@ -40,7 +41,11 @@ function Modal(props){
             <div style={{position:"fixed",height:"100vh",width:"100%",top:0,left:0,backgroundColor:"#F9F2ED",opacity:0.9,}}></div>
             <div className="modalScroll" style={{height:"90%",width:"40%",position:"absolute",top:"5%",left:"30%",backgroundColor:"white",boxShadow:"5px 5px 10px #7D9D9C",borderRadius:"10px",overflowY:"scroll",padding:"10px"}}>
                 <div className="d-flex justify-content-between align-items-center" >
+                    {props.data.authorpic===null ?
+                    <img style={{height:"100px",width:"100px",borderRadius:"50px"}} src={blogImage1} alt="writer"/>
+                    :
                     <img style={{height:"100px",width:"100px",borderRadius:"50px"}} src={props.data.authorpic} alt="writer"/>
+                    }
                     <div style={{marginLeft:"10px"}}>
                         <p  style={{fontFamily:"Cormorant SC",fontSize:"40px",fontWeight:"bold",color:"#0D7377"}}>{props.data.title?props.data.title:<Loader/>}</p>
                         <p className="text-center"  style={{fontFamily:"Edu NSW ACT Foundation",fontSize:"22px",fontWeight:"bold",color:"#0F4C75"}}>{props.data.author}</p>

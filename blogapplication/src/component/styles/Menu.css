@@ -1,4 +1,9 @@
-.list-group a:hover{
+.list-group .list-group-item:hover{
     background-color: #3AB0FF;
-    color:white
+    color:white;
+}
+
+div .view{
+    background-color: #3AB0FF;
+    color:white;
 }

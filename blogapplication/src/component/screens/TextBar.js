@@ -15,4 +15,20 @@ function TextBar ({ label, ...props }){
     </div>
   )
 }
-export default TextBar;
+
+
+function Textarea ({ label, ...props }){
+  const [field, meta] = useField(props);
+  return (
+    <div className="mb-2">
+      <label htmlFor={field.name} style={{display:"flex",justifyContent:'flex-start',fontSize:17}}>{label}</label>
+      <textarea
+        className={`form-control shadow-none ${meta.touched && meta.error && 'is-invalid'}`}
+        {...field} {...props}
+        autoComplete="off"
+      />
+      <ErrorMessage component="div" name={field.name} style={{color:"red",display:"flex"}}/>
+    </div>
+  )
+}
+export {TextBar,Textarea};

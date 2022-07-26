@@ -8,6 +8,8 @@ import { IconContext } from "react-icons";
 import Menu from "./component/screens/Menu";
 import Signup from "./component/screens/Signup";
 import Login from "./component/screens/Login";
+import ViewBlogs from "./component/screens/ViewBlogs";
+import WriteBlog from "./component/screens/WriteBlog";
 
 function App() {
   useEffect(()=>{
@@ -58,15 +60,17 @@ function App() {
             <Menu/>
             </nav>
           </div>
-          <img src={pic} style={{height:"250px",width:"100%",marginTop:"10%"}}/>
+          <img src={pic} style={{height:"240px",width:"100%",marginTop:"10%"}}/>
         </div>
 
       </div>
-      <div className="col-md-10" style={{backgroundColor:"#F9F2ED"}}>
+      <div className="col-md-10" style={{backgroundColor:"#F9F2ED",position:"relative"}}>
         <Router>
           <Routes>
             <Route exact path="/" element={<HomePage/> } />
 
+            <Route exact path="/writeBlog" element={<WriteBlog/> } />
+            <Route exact path="/viewBlogs" element={<ViewBlogs/> } />
             <Route exact path="/Login" element={<Login/> } />
             <Route exact path="/signup" element={<Signup/> } />
             <Route exact path="*" element={<ErrorPage/>} />

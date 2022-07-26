@@ -1,7 +1,6 @@
 package com.example.blog.controller;
 
 import com.example.blog.entity.Vote;
-import com.example.blog.repository.VoteRepo;
 import com.example.blog.service.VoteService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

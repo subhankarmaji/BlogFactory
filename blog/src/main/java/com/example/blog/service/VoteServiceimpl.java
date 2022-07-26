@@ -29,9 +29,9 @@ public class VoteServiceimpl implements VoteService {
         try {
             final Blog[] blogs = new Blog[1];
             Optional<Blog> blog = this.blogRepo.findById(vote.getBid());
-            blog.ifPresent(item -> {
-                blogs[0] = item;
-            });
+            blog.ifPresent(item ->
+                blogs[0] = item
+            );
             List<Vote> tempVotes = blogs[0].getVotes();
             boolean present = false;
             Vote preVote = null;
@@ -48,7 +48,7 @@ public class VoteServiceimpl implements VoteService {
                 this.blogRepo.save(blogs[0]);
                 logger.info("vote complete for user {}", vote.getUserid());
                 return ResponseEntity.status(HttpStatus.OK).body("vote done");
-            }else if(present){
+            }else {
                 logger.warn("unvoting blog {} by user {}",vote.getBid(),vote.getUserid());
                 blogs[0].getVotes().remove(preVote);
                 blogs[0].setVotecount(blogs[0].getVotecount()-1);
@@ -60,6 +60,6 @@ public class VoteServiceimpl implements VoteService {
             logger.error("failed voting due {}",e.toString());
             return ResponseEntity.badRequest().body("try again");
         }
-        return null;
+
     }
 }

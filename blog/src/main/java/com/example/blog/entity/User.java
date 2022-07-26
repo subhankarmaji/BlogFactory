@@ -31,8 +31,6 @@ public class User {
     @JoinColumn(name = "userid", referencedColumnName = "id")
     List<Blog> blogs = new ArrayList<>();
 
-//    @OneToOne(cascade= CascadeType.ALL, orphanRemoval = true)
-//    @JoinColumn(name="userid", referencedColumnName = "id")
-//    private Vote vote;
+
 
 }
