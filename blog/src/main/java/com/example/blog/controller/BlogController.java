@@ -1,6 +1,7 @@
 package com.example.blog.controller;
 
 import com.example.blog.entity.Blog;
+import com.example.blog.entity.Blogpojo;
 import com.example.blog.service.BlogService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -25,6 +26,18 @@ public class BlogController {
     ResponseEntity<?> getallblogs(){
         logger.info("request for all blogs");
         return this.blogService.getallblogs();
+    }
+
+    @PutMapping("/editBlog")
+    ResponseEntity<String> editBlog(@RequestBody Blog blog){
+        logger.info("Edit started for blog {} by user {}",blog.getId(),blog.getUid());
+        return this.blogService.editBlog(blog);
+    }
+
+    @DeleteMapping("/deleteBlog/{id}")
+    ResponseEntity<String> deleteBlog(@PathVariable String id){
+        logger.warn("delete blog request for id {}",id);
+        return this.blogService.deleteBlog(Integer.parseInt(id));
     }
 
     @GetMapping("/blogOfTheDay")

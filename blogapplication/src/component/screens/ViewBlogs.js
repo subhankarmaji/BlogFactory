@@ -19,6 +19,7 @@ function ViewBlogs(){
     }
     useEffect(()=>{
         fetchBlogs();
+        localStorage.removeItem("Blog");
     },[]);
 
     const [filter,setFilter] = useState("");

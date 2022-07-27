@@ -58,7 +58,7 @@ function LoginForm(){
             <button id="loginbutton" className="btn btn-dark mt-3" type="submit">Login</button>
             <button id="resetbutton" className="btn btn-danger mt-3 ml-3"style={{marginLeft:15}} type="reset">Reset</button>
           </Form>
-          <img src={plant2} alt="design" style={{position:"absolute",top:"-25%",width:"80%",left:2}}/>
+          <img src={plant2} alt="design" style={{position:"absolute",top:"-26%",width:"80%",left:-26}}/>
         </div>
       )}
     </Formik>

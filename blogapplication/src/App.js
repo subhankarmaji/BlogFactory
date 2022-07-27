@@ -10,6 +10,7 @@ import Signup from "./component/screens/Signup";
 import Login from "./component/screens/Login";
 import ViewBlogs from "./component/screens/ViewBlogs";
 import WriteBlog from "./component/screens/WriteBlog";
+import EditBlogs from "./component/screens/EditBlogs";
 
 function App() {
   useEffect(()=>{
@@ -68,6 +69,7 @@ function App() {
         <Router>
           <Routes>
             <Route exact path="/" element={<HomePage/> } />
+            <Route exact path="/EditBlog" element={<EditBlogs/> } />
 
             <Route exact path="/writeBlog" element={<WriteBlog/> } />
             <Route exact path="/viewBlogs" element={<ViewBlogs/> } />

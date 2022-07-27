@@ -56,6 +56,7 @@ public class BlogServiceimpl implements BlogService{
         Optional<User> user = this.userRepo.findById(b.getUid());
         final User[] userTemp = new User[1];
         user.ifPresent(item-> userTemp[0] =item);
+        temp.setAuthorid(userTemp[0].getId());
         temp.setAuthor(userTemp[0].getName());
         temp.setAuthorpic(userTemp[0].getUserimg());
         return temp;
@@ -97,5 +98,43 @@ public class BlogServiceimpl implements BlogService{
             return ResponseEntity.badRequest().body("something went wrong!");
         }
 
+    }
+
+    @Override
+    public ResponseEntity<String> editBlog(Blog blog) {
+        try{
+            Optional<Blog> preBlog = this.blogRepo.findById(blog.getId());
+            final Blog[] blogTemp = new Blog[1];
+            preBlog.ifPresent(item->blogTemp[0]=item);
+            logger.info("Last edited date of this blog was {}",blogTemp[0].getDateofpublish());
+            blogTemp[0].setTitle(blog.getTitle());
+            blogTemp[0].setDescription(blog.getDescription());
+            blogTemp[0].setContent(blog.getContent());
+            blogTemp[0].setDateofpublish(blog.getDateofpublish());
+            this.blogRepo.save(blogTemp[0]);
+            logger.info("blog edited successfully on {}",blogTemp[0].getDateofpublish());
+            return ResponseEntity.ok("blog edited successfully");
+        }catch (Exception e){
+            return ResponseEntity.badRequest().body("exception happened");
+        }
+    }
+
+    @Override
+    public ResponseEntity<String> deleteBlog(int id) {
+        try{
+            Optional<Blog> preBlog = this.blogRepo.findById(id);
+            final Blog[] blogTemp = new Blog[1];
+            preBlog.ifPresent(item->blogTemp[0]=item);
+            if(blogTemp[0]==null) {
+                logger.error("can't find any blog of id {}",id);
+                return ResponseEntity.badRequest().body("not found");
+            }
+            this.blogRepo.delete(blogTemp[0]);
+            logger.info("blog deleted successfully");
+            return ResponseEntity.ok("deleted");
+        }catch (Exception e){
+            logger.error("failed delete operation for {}",e.getMessage());
+            return ResponseEntity.badRequest().body("exception happened");
+        }
     }
 }

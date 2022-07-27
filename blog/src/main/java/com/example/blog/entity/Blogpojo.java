@@ -9,6 +9,7 @@ public class Blogpojo {
     private int id;
     private String title;
     private String author;
+    private int authorid;
     private String authorpic;
     private String desc;
     private String content;

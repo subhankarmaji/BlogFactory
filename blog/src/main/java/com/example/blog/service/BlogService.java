@@ -9,4 +9,8 @@ public interface BlogService {
     ResponseEntity<?> getallblogs();
 
     ResponseEntity<?> getBlogOfTheDay();
+
+    ResponseEntity<String> editBlog(Blog blog);
+
+    ResponseEntity<String> deleteBlog(int id);
 }

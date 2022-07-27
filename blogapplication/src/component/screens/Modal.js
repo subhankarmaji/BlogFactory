@@ -6,7 +6,23 @@ import { IconContext } from "react-icons";
 import base_url from "../api/Bootapi";
 import axios from "axios";
 import blogImage1 from '../assets/blogImage1.png';
+import { ToastContainer, toast } from 'react-toastify';
+  import 'react-toastify/dist/ReactToastify.css';
 function Modal(props){
+    const editHandler=(blog)=>{
+        localStorage.setItem("Blog",JSON.stringify(blog));
+        window.location.replace("/EditBlog")
+    }
+    const deleteHandler=(id)=>{
+        axios.delete(`${base_url}/deleteBlog/${id}`).then(
+            (res)=>{
+                toast.success('Your blog deleted successfully',{autoClose: 2000});
+                setTimeout(() => {  window.location.replace('/viewBlogs'); }, 2000);
+            },(error)=>{
+                toast.error('Try again !!',{autoClose:2000});
+            }
+        )
+    }
     const[user,setUser]=useState(null);
     const[allvoter,setAllVoter] = useState([]);
     const [active,setActive] = useState(false);
@@ -15,15 +31,15 @@ function Modal(props){
       let vote={'bid':props.data.id,'userid':user.id};
       axios.post(`${base_url}/doVote`,vote).then(
         (response)=>{
-            console.log(response);
+            toast.success('Thanks for your concern',{autoClose: 2000});
         },(error)=>{
-            console.log(error);
+            toast.error('Try again !!',{autoClose:2000});
         }
       )
 
     }
     const checkOwner=()=>{
-        if(user.name===props.data.author) setOwner(true);
+        if(user.id===props.data.authorid) setOwner(true);
     }
     useEffect(()=>{
         if(localStorage.getItem("user")===null) window.location.replace("/Login");
@@ -37,6 +53,8 @@ function Modal(props){
     },[allvoter]);
 
     return(
+        <>
+        <ToastContainer/>
         <div style={{position:"fixed",height:"100vh",width:"100%",top:0,left:0,zIndex:2}}>
             <div style={{position:"fixed",height:"100vh",width:"100%",top:0,left:0,backgroundColor:"#F9F2ED",opacity:0.9,}}></div>
             <div className="modalScroll" style={{height:"90%",width:"40%",position:"absolute",top:"5%",left:"30%",backgroundColor:"white",boxShadow:"5px 5px 10px #7D9D9C",borderRadius:"10px",overflowY:"scroll",padding:"10px"}}>
@@ -61,8 +79,8 @@ function Modal(props){
                 <p style={{fontSize:"20px",lineHeight:1.2}}>{props.data.content}</p>
                 {owner?
                 <div className="d-flex justify-content-around">
-                <button type="button"className="btn btn-outline-info">Edit</button>
-                <button type="button"className="btn btn-outline-danger">Delete</button>
+                <button type="button"className="btn btn-outline-info" onClick={()=>{editHandler(props.data)}}>Edit</button>
+                <button type="button"className="btn btn-outline-danger" onClick={()=>{deleteHandler(props.data.id)}}>Delete</button>
 
                 <button type="button" onClick={()=>{props.closeModal(false);window.location.reload();}} className="btn btn-outline-warning">Close</button>
                 </div>
@@ -75,5 +93,6 @@ function Modal(props){
             </div>
 
         </div>
+        </>
     );
 }export default Modal;
