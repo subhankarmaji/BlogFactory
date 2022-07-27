@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Formik, Form} from 'formik';
 import {TextBar} from './TextBar';
 import * as Yup from 'yup';
@@ -7,7 +7,9 @@ import { ToastContainer, toast } from 'react-toastify';
   import 'react-toastify/dist/ReactToastify.css';
 import base_url from '../api/Bootapi';
 import axios from 'axios';
+import plant3 from '../assets/plant3.png';
 function RegisterForm(){
+  // const [file,setFile] = useState('');
   const validate = Yup.object({
     
     name: Yup.string()
@@ -28,7 +30,11 @@ function RegisterForm(){
       .required('Password is required'),
   })
   const sendData=(data)=>{
-    axios.post(`${base_url}/signup`,data).then(
+    axios.post(`${base_url}/signup`,data,{
+      headers: {
+        "Content-Type": "multipart/form-data",
+      },
+    }).then(
       (response)=>{
         console.log(response.data);
         if(response.data==="ok"){
@@ -48,8 +54,9 @@ function RegisterForm(){
           if(error.response.data==="usernameExist"){
             toast.error('Username  Already exist!!',{autoClose: 2000});
           }
-          if(error.response.data==="Error"){
-            toast.error('Something went Wrong Try again!!',{autoClose: 2000});
+          if(error.response.data==="exceedSize"){
+            toast.error('Choose file size under 1MB',{autoClose: 2000});
+
           }
       }
     )
@@ -66,24 +73,41 @@ function RegisterForm(){
         mobile:'',
         email: '',
         password: '',
+ 
       }}
       validationSchema={validate}
       onSubmit={values => {
-      
+      //  values.profileimage = file;
         console.log(values);
-        sendData(values);
+        if(!values.hasOwnProperty('profileimage')){
+          values.profileimage = new File([], '');
+          sendData(values);
+        }
+        if(values.profileimage.size>=1048576){
+          toast.error('Choose file size under 1MB',{autoClose: 2000});
+        }else{
+
+          sendData(values);
+        }
       }}
     >
       {formik => (
-        <div>
+        <div style={{position:"relative"}}>
           <h1 className='mt-1'style={{fontWeight:"bold"}} >Register</h1>
-          <Form>
+          <Form >
           
             <TextBar id="name" label="Name" name="name" type="text" />
             <TextBar id="username" label="Username" name="username" type="text" />
             <TextBar id="mobilenumber" label="Mobile" name="mobile" type="text" />
             <TextBar id="email" label="Email" name="email" type="email" />
             <TextBar id="password" label="password" name="password" type="password" />
+            <label for="profileimage" style={{fontSize:17}}> Profile picture</label>
+            <input id="profileimage" label ="Profile Picture" name="profileimage" className='form-control shadow-none' type="file"onChange={(event) => {
+                  console.log(event.target.files[0]);
+                  const file = event.target.files[0];
+                  formik.setFieldValue("profileimage", file);
+                }}/>
+            <br/>
             <span className="">
                   Already Have Account?
                   <nav>
@@ -94,7 +118,7 @@ function RegisterForm(){
             
             <button id="resetbutton" className="btn btn-danger mt-3 ml-3"style={{marginLeft:15}} type="reset">Reset</button>
           </Form>
-
+          <img src={plant3} alt="design" style={{position:"absolute",top:"-17%",right:"-20%",transform:"rotate(-130deg)"}}/>
         </div>
       )}
     </Formik>

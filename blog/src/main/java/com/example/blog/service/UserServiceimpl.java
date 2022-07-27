@@ -10,6 +10,9 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.InputStream;
 import java.util.Optional;
 
 @Service
@@ -72,5 +75,19 @@ public class UserServiceimpl implements UserService{
         catch(Exception e){
             return ResponseEntity.badRequest().body(null);
         }
+    }
+
+    @Override
+    public InputStream getResource(String path, String fileName) {
+        try{
+            logger.info("serving picture");
+            String fullPath = path+File.separator+fileName;
+            InputStream is = new FileInputStream(fullPath);
+            return is;
+        }catch (Exception e){
+            logger.error("picture not found");
+            return null;
+        }
+
     }
 }

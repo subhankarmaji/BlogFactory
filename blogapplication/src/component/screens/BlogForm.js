@@ -80,9 +80,9 @@ function BlogForm(){
             <TextBar id="title" label="title" name="title" type="text" style={{width:"60%"}} />
             <TextBar id="description" label="description" name="description" type="text" style={{width:"80%"}} />
             <Textarea style={{height:"300px",fontSize:"18px"}} id="content" label="content" name="content" type="text" />
-            <button id="registerbutton" className="btn btn-outline-success mt-3" type="submit">Submit blog</button>
+            <button id="registerbutton" className="btn btn-success mt-3" type="submit">Submit blog</button>
             
-            <button id="resetbutton" className="btn btn-outline-danger mt-3 ml-3"style={{marginLeft:15}} type="reset">Reset</button>
+            <button id="resetbutton" className="btn btn-danger mt-3 ml-3"style={{marginLeft:15}} type="reset">Reset</button>
           </Form>
 
         </div>

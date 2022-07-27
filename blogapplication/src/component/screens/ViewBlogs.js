@@ -30,7 +30,7 @@ function ViewBlogs(){
     return(
         <div style={{height:"90vh",width:"100%"}}>
              <Container className='text-center mt-4' style={{width:"40%",height:"5%"}}>
-                <Form.Control  id="searchbar" placeholder="Enter title or name of author" value = {filter} onChange={SearchText.bind(this)} />
+                <Form.Control  id="searchbar" placeholder="Enter title or name of author or date" value = {filter} onChange={SearchText.bind(this)} />
 
             </Container>
             <div className="d-flex flex-wrap justify-content-around mt-4 " style={{height:"95%",width:"100%",overflow:"scroll",overflowX:"hidden"}} >

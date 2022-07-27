@@ -44,7 +44,7 @@ function Modal(props){
                     {props.data.authorpic===null ?
                     <img style={{height:"100px",width:"100px",borderRadius:"50px"}} src={blogImage1} alt="writer"/>
                     :
-                    <img style={{height:"100px",width:"100px",borderRadius:"50px"}} src={props.data.authorpic} alt="writer"/>
+                    <img style={{height:"100px",width:"100px",borderRadius:"50px"}} src={`http://localhost:9090/images/${props.data.authorpic}`}  alt="writer"/>
                     }
                     <div style={{marginLeft:"10px"}}>
                         <p  style={{fontFamily:"Cormorant SC",fontSize:"40px",fontWeight:"bold",color:"#0D7377"}}>{props.data.title?props.data.title:<Loader/>}</p>

@@ -44,7 +44,7 @@ function App() {
                 <RiAccountCircleFill/>
               </IconContext.Provider>
               :
-              <img src={user.userimg} alt="user" style={{height:90,width:90,borderRadius:45}}/>
+              <img src={`http://localhost:9090/images/${user.userimg}`} alt="user" style={{height:90,width:90,borderRadius:45}}/>
               }   
             </div>
             <div className="d-flex flex-column justify-content-center" style={{marginLeft:"20px"}}>

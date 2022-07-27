@@ -7,6 +7,7 @@ import base_url from '../api/Bootapi';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import axios from 'axios';
+import plant2 from '../assets/plant2.png';
 function LoginForm(){
   const validate = Yup.object({
     
@@ -42,7 +43,7 @@ function LoginForm(){
       }}
     >
       {formik => (
-        <div>
+        <div style={{position:"relative"}}>
           <h1 className='mt-4'style={{fontWeight:"bold"}} >Login</h1>
           <Form>
           
@@ -57,6 +58,7 @@ function LoginForm(){
             <button id="loginbutton" className="btn btn-dark mt-3" type="submit">Login</button>
             <button id="resetbutton" className="btn btn-danger mt-3 ml-3"style={{marginLeft:15}} type="reset">Reset</button>
           </Form>
+          <img src={plant2} alt="design" style={{position:"absolute",top:"-25%",width:"80%",left:2}}/>
         </div>
       )}
     </Formik>

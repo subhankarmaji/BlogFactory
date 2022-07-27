@@ -14,7 +14,7 @@ function BlogCard(props){
                 {props.data.authorpic===null ?
                 <img style={{height:"150px",width:"150px",borderRadius:"75px"}} src={blogImage1} />
                 :
-                <img style={{height:"150px",width:"150px",borderRadius:"75px"}} src={props.data.authorpic} />
+                <img style={{height:"150px",width:"150px",borderRadius:"75px"}} src={`http://localhost:9090/images/${props.data.authorpic}`} />
                 }
                 
             </div>

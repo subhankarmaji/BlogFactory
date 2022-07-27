@@ -9,7 +9,7 @@ function WriteBlog(){
                 <BlogForm/>
             </div>
 
-            <img src={plant} alt="plant" style={{position:"absolute",height:"290px",top:-10,right:"8%"}}/>
+            <img src={plant} alt="plant" style={{position:"absolute",height:"290px",top:-10,right:"10%",transform:"rotate(20deg)"}}/>
         </div>
     );
 }
