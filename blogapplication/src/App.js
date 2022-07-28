@@ -11,6 +11,8 @@ import Login from "./component/screens/Login";
 import ViewBlogs from "./component/screens/ViewBlogs";
 import WriteBlog from "./component/screens/WriteBlog";
 import EditBlogs from "./component/screens/EditBlogs";
+import ContactPage from "./component/screens/ContactPage";
+import About from "./component/screens/About";
 
 function App() {
   useEffect(()=>{
@@ -70,7 +72,8 @@ function App() {
           <Routes>
             <Route exact path="/" element={<HomePage/> } />
             <Route exact path="/EditBlog" element={<EditBlogs/> } />
-
+            <Route exact path="/contact" element={<ContactPage/> } />
+            <Route exact path="/about" element={<About/>}/>
             <Route exact path="/writeBlog" element={<WriteBlog/> } />
             <Route exact path="/viewBlogs" element={<ViewBlogs/> } />
             <Route exact path="/Login" element={<Login/> } />

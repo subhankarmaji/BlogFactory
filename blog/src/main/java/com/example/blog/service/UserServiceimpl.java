@@ -8,11 +8,16 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.InputStream;
+import java.util.ArrayList;
 import java.util.Optional;
 
 @Service
@@ -20,6 +25,9 @@ public class UserServiceimpl implements UserService{
     private final Logger logger = LoggerFactory.getLogger(UserServiceimpl.class);
     @Autowired
     private UserRepo userRepo;
+
+    @Autowired
+    private PasswordEncoder passwordEncoder;
     @Override
     public ResponseEntity<String> signUp(User user) {
         boolean emailAlreadyExist = userRepo.existsUserByEmail(user.getEmail());
@@ -38,6 +46,7 @@ public class UserServiceimpl implements UserService{
             return ResponseEntity.badRequest().body("usernameExist");
         }
         try{
+            user.setPassword(passwordEncoder.encode(user.getPassword()));
             userRepo.save(user);
             logger.info("user registered successfully with credential {} ",user);
             return ResponseEntity.status(HttpStatus.OK).body("ok");
@@ -89,5 +98,16 @@ public class UserServiceimpl implements UserService{
             return null;
         }
 
+    }
+
+    @Override
+    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+        Optional<User> user = this.userRepo.findByEmail(username);
+        final User[] userTemp = new User[1];
+        user.ifPresent(item-> {userTemp[0]=item;});
+        if(userTemp[0]==null){
+            throw new UsernameNotFoundException("user not found");
+        }
+        return new org.springframework.security.core.userdetails.User(userTemp[0].getEmail(),userTemp[0].getPassword(),new ArrayList<>());
     }
 }

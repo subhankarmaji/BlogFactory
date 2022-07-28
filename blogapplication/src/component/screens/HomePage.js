@@ -6,7 +6,7 @@ import { IconContext } from "react-icons";
 import BlogCard from "./BlogCard";
 import Typewriter from 'typewriter-effect';
 import axios from "axios";
-import base_url from "../api/Bootapi";
+import {base_url} from "../api/Bootapi";
 
 
 function HomePage(){

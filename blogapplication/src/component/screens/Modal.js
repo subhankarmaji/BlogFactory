@@ -3,8 +3,8 @@ import '../styles/Modal.css';
 import Loader from "./Loader";
 import {GiCrownedHeart} from 'react-icons/gi';
 import { IconContext } from "react-icons";
-import base_url from "../api/Bootapi";
-import axios from "axios";
+import {base_url,axiosObject} from "../api/Bootapi";
+
 import blogImage1 from '../assets/blogImage1.png';
 import { ToastContainer, toast } from 'react-toastify';
   import 'react-toastify/dist/ReactToastify.css';
@@ -14,7 +14,7 @@ function Modal(props){
         window.location.replace("/EditBlog")
     }
     const deleteHandler=(id)=>{
-        axios.delete(`${base_url}/deleteBlog/${id}`).then(
+        axiosObject.delete(`/deleteBlog/${id}`).then(
             (res)=>{
                 toast.success('Your blog deleted successfully',{autoClose: 2000});
                 setTimeout(() => {  window.location.replace('/viewBlogs'); }, 2000);
@@ -29,7 +29,7 @@ function Modal(props){
     const [owner,setOwner] = useState(false);
     const doVote=()=>{
       let vote={'bid':props.data.id,'userid':user.id};
-      axios.post(`${base_url}/doVote`,vote).then(
+      axiosObject.post(`/doVote`,vote).then(
         (response)=>{
             toast.success('Thanks for your concern',{autoClose: 2000});
         },(error)=>{

@@ -5,7 +5,7 @@ import * as Yup from 'yup';
 import { Link } from "react-router-dom";
 import { ToastContainer, toast } from 'react-toastify';
   import 'react-toastify/dist/ReactToastify.css';
-import base_url from '../api/Bootapi';
+import {base_url} from '../api/Bootapi';
 import axios from 'axios';
 import plant3 from '../assets/plant3.png';
 function RegisterForm(){

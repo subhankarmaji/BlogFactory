@@ -22,31 +22,31 @@ function Menu(){
     return(
         <div>
             <div className="list-group list-group-flush ">
-                    <div id="/" className="list-group-item list-group-item-action " style={{borderRadius:"20px"}} onClick={()=>window.location.replace('/')} >
+                    <div id="/" className="list-group-item list-group-item-action " style={{borderRadius:"20px",cursor:"pointer"}} onClick={()=>window.location.replace('/')} >
                         <IconContext.Provider value={{ style:{height:20,width:20,marginRight:10}}}>
                             <IoIosHome/>
                         Home
                         </IconContext.Provider>
                     </div>
-                    <div id="/writeBlog" className="list-group-item list-group-item-action mt-1"style={{borderRadius:"20px"}} onClick={()=>{window.location.replace('/writeBlog');}} >
+                    <div id="/writeBlog" className="list-group-item list-group-item-action mt-1"style={{borderRadius:"20px",cursor:"pointer"}} onClick={()=>{window.location.replace('/writeBlog');}} >
                         <IconContext.Provider value={{ style:{height:20,width:20,marginRight:10}}}>
                             <GoPencil/>
                         Write blog
                         </IconContext.Provider>
                     </div>
-                    <div id="/viewBlogs" className="list-group-item list-group-item-action mt-1"style={{borderRadius:"20px"}} onClick={()=>{window.location.replace('/viewBlogs');}}>
+                    <div id="/viewBlogs" className="list-group-item list-group-item-action mt-1"style={{borderRadius:"20px",cursor:"pointer"}} onClick={()=>{window.location.replace('/viewBlogs');}}>
                         <IconContext.Provider value={{ style:{height:20,width:20,marginRight:10}}}>
                             <GiOpenBook/>
                         View Blogs
                         </IconContext.Provider>
                     </div>
-                    <div id="/Login" className="list-group-item list-group-item-action mt-1"style={{borderRadius:"20px"}}onClick={()=>{window.location.replace('/Login');}} >
+                    <div id="/Login" className="list-group-item list-group-item-action mt-1"style={{borderRadius:"20px",cursor:"pointer"}}onClick={()=>{window.location.replace('/Login');}} >
                          <IconContext.Provider value={{ style:{height:20,width:20,marginRight:10}}}>
                             <GoSignIn/>
                         Sign in
                         </IconContext.Provider>
                     </div>
-                    <div id="/signup" className="list-group-item list-group-item-action mt-1"style={{borderRadius:"20px"}} onClick={()=>{window.location.replace('/signup');}}>
+                    <div id="/signup" className="list-group-item list-group-item-action mt-1"style={{borderRadius:"20px",cursor:"pointer"}} onClick={()=>{window.location.replace('/signup');}}>
                         <IconContext.Provider value={{ style:{height:20,width:20,marginRight:10}}}>
                             <IoIosPersonAdd/>
                         Sign Up
@@ -54,13 +54,13 @@ function Menu(){
                     </div>
             </div>
             <div className="list-group list-group-flush mt-3" >
-                    <div id="/contact" className="list-group-item list-group-item-action"style={{borderRadius:"20px"}} onClick={()=>{window.location.replace('/contact');}} >
+                    <div id="/contact" className="list-group-item list-group-item-action"style={{borderRadius:"20px",cursor:"pointer"}} onClick={()=>{window.location.replace('/contact');}} >
                         <IconContext.Provider value={{ style:{height:20,width:20,marginRight:10}}}>
                             <IoIosMail/>
                         Contact
                         </IconContext.Provider>
                     </div>
-                    <div id="/about" className="list-group-item list-group-item-action mt-1"style={{borderRadius:"20px"}} onClick={()=>{window.location.replace('/about');}}>
+                    <div id="/about" className="list-group-item list-group-item-action mt-1"style={{borderRadius:"20px",cursor:"pointer"}} onClick={()=>{window.location.replace('/about');}}>
                         <IconContext.Provider value={{ style:{height:20,width:20,marginRight:10}}}>
                             <BsInfoLg/>
                         about

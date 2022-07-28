@@ -4,8 +4,8 @@ import {TextBar,Textarea} from './TextBar';
 import * as Yup from 'yup';
 import { ToastContainer, toast } from 'react-toastify';
   import 'react-toastify/dist/ReactToastify.css';
-import base_url from '../api/Bootapi';
-import axios from 'axios';
+import {axiosObject} from '../api/Bootapi';
+
 function EditBlogForm(props){
 
     function padTo2Digits(num) {
@@ -35,7 +35,7 @@ function EditBlogForm(props){
 
   })
   const sendData=(data)=>{
-    axios.put(`${base_url}/editBlog`,data).then(
+    axiosObject.put(`/editBlog`,data).then(
       (response)=>{
         console.log(response.data);
           toast.success('Your blog edited successfully',{autoClose: 2000});

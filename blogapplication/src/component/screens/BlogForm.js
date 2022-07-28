@@ -4,8 +4,8 @@ import {TextBar,Textarea} from './TextBar';
 import * as Yup from 'yup';
 import { ToastContainer, toast } from 'react-toastify';
   import 'react-toastify/dist/ReactToastify.css';
-import base_url from '../api/Bootapi';
-import axios from 'axios';
+import {axiosObject} from '../api/Bootapi';
+
 function BlogForm(){
     useEffect(()=>{
         if(localStorage.getItem("user")===null) window.location.replace("/Login");
@@ -39,7 +39,7 @@ function BlogForm(){
 
   })
   const sendData=(data)=>{
-    axios.post(`${base_url}/addblog`,data).then(
+    axiosObject.post(`/addblog`,data).then(
       (response)=>{
         console.log(response.data);
           toast.success('Your blog is live now',{autoClose: 2000});

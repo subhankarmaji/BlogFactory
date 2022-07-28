@@ -1,582 +1,178 @@
-2022-07-28 00:01:16 [http-nio-9090-exec-5] INFO  c.e.blog.controller.VoteController - voting start
-2022-07-28 00:01:16 [http-nio-9090-exec-5] WARN  c.e.blog.service.VoteServiceimpl - unvoting blog 2 by user 2
-2022-07-28 00:01:21 [http-nio-9090-exec-9] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 00:01:21 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 00:01:21 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 00:01:21 [http-nio-9090-exec-6] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 00:01:21 [http-nio-9090-exec-6] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 00:01:21 [http-nio-9090-exec-6] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 00:01:21 [http-nio-9090-exec-1] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 00:01:21 [http-nio-9090-exec-1] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 00:01:54 [http-nio-9090-exec-3] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-28 00:01:54 [http-nio-9090-exec-3] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-28 00:01:54 [http-nio-9090-exec-2] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 00:01:54 [http-nio-9090-exec-2] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-28 00:01:54 [http-nio-9090-exec-4] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-28 00:01:54 [http-nio-9090-exec-4] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-28 00:01:58 [http-nio-9090-exec-8] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 00:01:58 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 00:01:58 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 00:01:58 [http-nio-9090-exec-7] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 00:01:58 [http-nio-9090-exec-7] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 00:01:58 [http-nio-9090-exec-7] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 00:01:58 [http-nio-9090-exec-5] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 00:01:58 [http-nio-9090-exec-5] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 00:02:06 [http-nio-9090-exec-10] INFO  c.e.blog.controller.VoteController - voting start
-2022-07-28 00:02:06 [http-nio-9090-exec-10] INFO  c.e.blog.service.VoteServiceimpl - vote complete for user 2
-2022-07-28 00:02:11 [http-nio-9090-exec-9] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 00:02:11 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 00:02:11 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 00:02:11 [http-nio-9090-exec-6] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 00:02:11 [http-nio-9090-exec-6] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 00:02:11 [http-nio-9090-exec-6] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 00:02:11 [http-nio-9090-exec-1] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 00:02:11 [http-nio-9090-exec-1] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 00:04:35 [http-nio-9090-exec-8] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 00:04:35 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 00:04:35 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 00:04:35 [http-nio-9090-exec-5] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 00:04:35 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 00:04:35 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 00:04:35 [http-nio-9090-exec-7] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 00:04:35 [http-nio-9090-exec-7] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 00:05:14 [http-nio-9090-exec-10] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 00:05:14 [http-nio-9090-exec-10] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 00:05:14 [http-nio-9090-exec-10] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 00:05:14 [http-nio-9090-exec-9] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 00:05:14 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 00:05:14 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 00:05:14 [http-nio-9090-exec-1] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 00:05:14 [http-nio-9090-exec-1] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 00:06:13 [http-nio-9090-exec-6] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-28 00:06:13 [http-nio-9090-exec-6] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-28 00:06:13 [http-nio-9090-exec-2] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 00:06:13 [http-nio-9090-exec-2] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-28 00:06:13 [http-nio-9090-exec-4] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-28 00:06:13 [http-nio-9090-exec-4] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-28 00:06:37 [http-nio-9090-exec-8] INFO  c.e.blog.controller.UserController - trying to login with credential Login(email=newUser123@gmail.com, password=user123@1)
-2022-07-28 00:06:37 [http-nio-9090-exec-8] INFO  c.e.blog.service.UserServiceimpl - login successfully Optional[User(id=1, name=user1, email=newUser123@gmail.com, mobile=5443533133, userimg=null, username=newUser123, password=user123@1, blogs=[Blog(id=1, title=Tech and Science, description=Pros and cons of technology over the society, content=Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem IpsumLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem IpsumLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum Ut tincidunt blandit elementum. Ut consectetur hendrerit nisi at consequat. Fusce pulvinar est ex, in bibendum diam porta luctus. Nulla id ante arcu. Integer dolor sem, commodo sed condimentum et, tempor nec velit. Nunc ut magna a nibh tristique rhoncus non ac quam. Suspendisse in urna congue nisi lacinia molestie quis a tellus. Vivamus et neque mauris. Quisque lobortis eu nisi sed consectetur. Aliquam ullamcorper a augue a tempus. In gravida vulputate auctor.Sed a molestie urna. Nullam et venenatis lectus. Mauris a maximus purus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque orci lacus, tempor nec elit ut, faucibus venenatis neque. Etiam blandit consequat augue, tincidunt luctus ante sollicitudin sed. Praesent vestibulum, eros ac facilisis accumsan, lacus nulla convallis turpis, eget finibus erat est quis mauris. Ut feugiat sollicitudin porta. Cras consequat molestie ante eget viverra. Phasellus placerat magna quam, vitae pretium magna tristique sed. Sed ultrices leo eros. Maecenas sit amet laoreet metus, non dignissim lacus.Morbi ac magna finibus, suscipit ligula vitae, sollicitudin dolor. Vivamus sollicitudin quis metus at vestibulum. Fusce luctus rhoncus justo, vitae laoreet nisi. Sed ullamcorper porta neque vel sagittis. Curabitur euismod porttitor nulla, id porta nulla commodo vel. Duis nisl quam, posuere ac volutpat at, mattis at lacus. Curabitur ultrices sed ligula nec congue. In tempor pellentesque orci non auctor. Praesent maximus diam sodales lorem tincidunt, ut placerat turpis ornare. Vivamus in facilisis ex, ac tristique nibh. Nam eu ante nulla. Quisque pulvinar congue leo, in aliquam orci feugiat et. Quisque porttitor neque in sapien placerat, vitae pellentesque purus aliquam. Nulla et sollicitudin ligula, in tristique dui. Sed sed nibh commodo, ullamcorper augue auctor, ullamcorper nunc.Vivamus sed lorem quis orci pellentesque tincidunt non sed tortor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque id felis ac ipsum finibus maximus. Etiam non augue consectetur, pulvinar dui eu, auctor lectus. Nunc rutrum efficitur justo, nec malesuada odio feugiat ut. Sed vitae blandit velit. Ut condimentum felis in nisl tincidunt, sed tristique urna bibendum. Fusce sagittis urna vitae ante auctor, et tempus orci volutpat. Donec mattis elit id justo maximus pretium. Aenean bibendum velit ligula, eu euismod leo mattis et. Ut porttitor auctor mi, et ornare eros sollicitudin quis. Nullam blandit, magna sed iaculis molestie, ante ante blandit orci, eget venenatis elit quam sed risus. In at ligula cursus, pulvinar mauris commodo, aliquam mauris. Donec pellentesque, augue ut sollicitudin gravida, mauris augue efficitur sapien, ultrices rutrum justo dui at ex., uid=1, dateofpublish=22-07-2022, votecount=1, votes=[Vote(id=13, bid=0, userid=1)]), Blog(id=3, title=Human and society, description=Pros and cons of technology over the society, content=Lorem ipsum dolor sit amet, consectetur adipiscing elit.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem IpsumLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem IpsumLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum Ut tincidunt blandit elementum. Ut consectetur hendrerit nisi at consequat. Fusce pulvinar est ex, in bibendum diam porta luctus. Nulla id ante arcu. Integer dolor sem, commodo sed condimentum et, tempor nec velit. Nunc ut magna a nibh tristique rhoncus non ac quam. Suspendisse in urna congue nisi lacinia molestie quis a tellus. Vivamus et neque mauris. Quisque lobortis eu nisi sed consectetur. Aliquam ullamcorper a augue a tempus. In gravida vulputate auctor.Sed a molestie urna. Nullam et venenatis lectus. Mauris a maximus purus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque orci lacus, tempor nec elit ut, faucibus venenatis neque. Etiam blandit consequat augue, tincidunt luctus ante sollicitudin sed. Praesent vestibulum, eros ac facilisis accumsan, lacus nulla convallis turpis, eget finibus erat est quis mauris. Ut feugiat sollicitudin porta. Cras consequat molestie ante eget viverra. Phasellus placerat magna quam, vitae pretium magna tristique sed. Sed ultrices leo eros. Maecenas sit amet laoreet metus, non dignissim lacus.Morbi ac magna finibus, suscipit ligula vitae, sollicitudin dolor. Vivamus sollicitudin quis metus at vestibulum. Fusce luctus rhoncus justo, vitae laoreet nisi. Sed ullamcorper porta neque vel sagittis. Curabitur euismod porttitor nulla, id porta nulla commodo vel. Duis nisl quam, posuere ac volutpat at, mattis at lacus. Curabitur ultrices sed ligula nec congue. In tempor pellentesque orci non auctor. Praesent maximus diam sodales lorem tincidunt, ut placerat turpis ornare. Vivamus in facilisis ex, ac tristique nibh. Nam eu ante nulla. Quisque pulvinar congue leo, in aliquam orci feugiat et. Quisque porttitor neque in sapien placerat, vitae pellentesque purus aliquam. Nulla et sollicitudin ligula, in tristique dui. Sed sed nibh commodo, ullamcorper augue auctor, ullamcorper nunc.Vivamus sed lorem quis orci pellentesque tincidunt non sed tortor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque id felis ac ipsum finibus maximus. Etiam non augue consectetur, pulvinar dui eu, auctor lectus. Nunc rutrum efficitur justo, nec malesuada odio feugiat ut. Sed vitae blandit velit. Ut condimentum felis in nisl tincidunt, sed tristique urna bibendum. Fusce sagittis urna vitae ante auctor, et tempus orci volutpat. Donec mattis elit id justo maximus pretium. Aenean bibendum velit ligula, eu euismod leo mattis et. Ut porttitor auctor mi, et ornare eros sollicitudin quis. Nullam blandit, magna sed iaculis molestie, ante ante blandit orci, eget venenatis elit quam sed risus. In at ligula cursus, pulvinar mauris commodo, aliquam mauris. Donec pellentesque, augue ut sollicitudin gravida, mauris augue efficitur sapien, ultrices rutrum justo dui at ex., uid=1, dateofpublish=23-07-2022, votecount=1, votes=[Vote(id=17, bid=0, userid=1)]), Blog(id=4, title=Effect of Social media, description=Advantage and disadvantage of social media, content=dear guys,
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus fringilla at nisl non auctor. Pellentesque dapibus nisi at feugiat euismod. Cras tincidunt imperdiet suscipit. Donec hendrerit consectetur mauris, id suscipit turpis dictum a. Phasellus pretium sem vel tortor dignissim, quis semper urna fringilla. In eu augue turpis. Etiam finibus mollis venenatis.
-
-Mauris facilisis nulla a dui tempus, sit amet finibus nulla congue. Vestibulum laoreet metus a finibus mattis. Nullam eget enim venenatis, hendrerit arcu at, condimentum mauris. Vivamus non leo hendrerit, suscipit mi nec, pellentesque dui. In porta massa nec augue elementum bibendum. In quis quam enim. Etiam lobortis, leo ut ultrices pulvinar, dui enim finibus sapien, eu porta sem diam a nibh. Ut ac leo lobortis, malesuada tellus ut, fermentum metus. Proin faucibus ultrices ligula, a consequat erat rutrum eget. Quisque volutpat, turpis malesuada lacinia tincidunt, dui orci scelerisque nisl, fringilla iaculis dui leo a lectus.
-
-Nam pellentesque imperdiet turpis, nec pulvinar ante rutrum at. Curabitur ut felis at odio gravida iaculis vitae id massa. Sed lobortis arcu ex, quis malesuada leo commodo eu. Quisque efficitur ligula at magna efficitur tempus. Etiam accumsan sapien a leo dapibus interdum. In hac habitasse platea dictumst. Nam vel purus suscipit libero dictum finibus vel faucibus enim. Suspendisse potenti. Phasellus elementum gravida justo vitae rutrum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus accumsan nulla eget bibendum maximus. Phasellus a nunc a metus rhoncus consectetur. Morbi eu feugiat arcu. Pellentesque vestibulum arcu sit amet neque consequat rutrum. Sed id semper velit, vel tempor dui. Proin rutrum, nulla sed tristique luctus, urna augue maximus diam, ut volutpat enim augue id nisi., uid=1, dateofpublish=26-07-2022, votecount=3, votes=[Vote(id=23, bid=0, userid=1), Vote(id=24, bid=0, userid=2), Vote(id=27, bid=0, userid=8)])])]
-2022-07-28 00:06:40 [http-nio-9090-exec-7] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-28 00:06:40 [http-nio-9090-exec-7] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-28 00:06:40 [http-nio-9090-exec-5] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 00:06:40 [http-nio-9090-exec-5] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-28 00:06:40 [http-nio-9090-exec-10] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-28 00:06:40 [http-nio-9090-exec-10] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-28 00:06:46 [http-nio-9090-exec-1] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 00:06:46 [http-nio-9090-exec-1] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 00:06:46 [http-nio-9090-exec-1] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 00:06:46 [http-nio-9090-exec-9] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 00:06:46 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 00:06:46 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 00:06:46 [http-nio-9090-exec-2] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 00:06:46 [http-nio-9090-exec-2] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 00:06:52 [http-nio-9090-exec-7] WARN  c.e.blog.controller.BlogController - delete blog request for id 3
-2022-07-28 00:06:52 [http-nio-9090-exec-7] INFO  c.e.blog.service.BlogServiceimpl - blog deleted successfully
-2022-07-28 00:06:55 [http-nio-9090-exec-5] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 00:06:55 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 00:06:55 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 00:06:55 [http-nio-9090-exec-10] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 00:06:55 [http-nio-9090-exec-10] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 00:06:55 [http-nio-9090-exec-1] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 00:06:55 [http-nio-9090-exec-10] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 00:06:55 [http-nio-9090-exec-1] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 00:08:49 [http-nio-9090-exec-3] INFO  c.e.blog.controller.VoteController - voting start
-2022-07-28 00:08:49 [http-nio-9090-exec-3] WARN  c.e.blog.service.VoteServiceimpl - unvoting blog 2 by user 1
-2022-07-28 00:08:52 [http-nio-9090-exec-4] INFO  c.e.blog.controller.VoteController - voting start
-2022-07-28 00:08:53 [http-nio-9090-exec-4] INFO  c.e.blog.service.VoteServiceimpl - vote complete for user 1
-2022-07-28 00:09:01 [http-nio-9090-exec-8] INFO  c.e.blog.controller.VoteController - voting start
-2022-07-28 00:09:01 [http-nio-9090-exec-8] WARN  c.e.blog.service.VoteServiceimpl - unvoting blog 2 by user 1
-2022-07-28 00:09:07 [http-nio-9090-exec-7] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 00:09:07 [http-nio-9090-exec-7] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 00:09:07 [http-nio-9090-exec-7] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 00:09:07 [http-nio-9090-exec-5] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 00:09:07 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 00:09:07 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 00:09:07 [http-nio-9090-exec-1] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 00:09:07 [http-nio-9090-exec-1] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 00:09:29 [http-nio-9090-exec-10] INFO  c.e.blog.controller.VoteController - voting start
-2022-07-28 00:09:29 [http-nio-9090-exec-10] INFO  c.e.blog.service.VoteServiceimpl - vote complete for user 1
-2022-07-28 00:09:33 [http-nio-9090-exec-9] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 00:09:33 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 00:09:33 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 00:09:33 [http-nio-9090-exec-6] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 00:09:33 [http-nio-9090-exec-6] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 00:09:33 [http-nio-9090-exec-6] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 00:09:33 [http-nio-9090-exec-2] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 00:09:33 [http-nio-9090-exec-2] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 00:09:46 [http-nio-9090-exec-3] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-28 00:09:46 [http-nio-9090-exec-3] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-28 00:09:46 [http-nio-9090-exec-4] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 00:09:46 [http-nio-9090-exec-4] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-28 00:09:46 [http-nio-9090-exec-8] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-28 00:09:46 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-28 00:31:43 [http-nio-9090-exec-5] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 00:31:43 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 00:31:43 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 00:31:43 [http-nio-9090-exec-10] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 00:31:43 [http-nio-9090-exec-10] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 00:31:43 [http-nio-9090-exec-9] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 00:31:43 [http-nio-9090-exec-10] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 00:31:43 [http-nio-9090-exec-9] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 00:40:42 [http-nio-9090-exec-4] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 00:40:42 [http-nio-9090-exec-4] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 00:40:42 [http-nio-9090-exec-4] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 00:40:42 [http-nio-9090-exec-8] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 00:40:42 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 00:40:42 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 00:40:42 [http-nio-9090-exec-7] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 00:40:42 [http-nio-9090-exec-7] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 01:25:04 [http-nio-9090-exec-2] INFO  c.e.blog.controller.BlogController - Edit started for blog 1 by user 1
-2022-07-28 01:25:04 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - Last edited date of this blog was 22-07-2022
-2022-07-28 01:25:04 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - blog edited successfully on 28-07-2022
-2022-07-28 01:25:10 [http-nio-9090-exec-6] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 01:25:10 [http-nio-9090-exec-6] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 01:25:10 [http-nio-9090-exec-6] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 01:25:10 [http-nio-9090-exec-3] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 01:25:10 [http-nio-9090-exec-3] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 01:25:10 [http-nio-9090-exec-3] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 01:25:10 [http-nio-9090-exec-4] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 01:25:10 [http-nio-9090-exec-4] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 01:38:36 [http-nio-9090-exec-1] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 01:38:36 [http-nio-9090-exec-1] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 01:38:36 [http-nio-9090-exec-1] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 01:38:36 [http-nio-9090-exec-5] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 01:38:36 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 01:38:36 [http-nio-9090-exec-10] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 01:38:36 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 01:38:36 [http-nio-9090-exec-10] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 01:43:07 [http-nio-9090-exec-4] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 01:43:07 [http-nio-9090-exec-4] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 01:43:07 [http-nio-9090-exec-4] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 01:43:07 [http-nio-9090-exec-9] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 01:43:07 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 01:43:07 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 01:43:07 [http-nio-9090-exec-7] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 01:43:07 [http-nio-9090-exec-7] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 01:45:16 [http-nio-9090-exec-5] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 01:45:16 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 01:45:16 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 01:45:16 [http-nio-9090-exec-2] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 01:45:16 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 01:45:16 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 01:45:16 [http-nio-9090-exec-6] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 01:45:16 [http-nio-9090-exec-6] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 01:45:30 [http-nio-9090-exec-3] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 01:45:30 [http-nio-9090-exec-3] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 01:45:30 [http-nio-9090-exec-3] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 01:45:30 [http-nio-9090-exec-4] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 01:45:30 [http-nio-9090-exec-4] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 01:45:30 [http-nio-9090-exec-4] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 01:45:30 [http-nio-9090-exec-9] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 01:45:30 [http-nio-9090-exec-9] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 01:47:06 [http-nio-9090-exec-8] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 01:47:06 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 01:47:06 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 01:47:06 [http-nio-9090-exec-5] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 01:47:06 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 01:47:06 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 01:47:06 [http-nio-9090-exec-2] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 01:47:06 [http-nio-9090-exec-2] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 01:49:05 [http-nio-9090-exec-9] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-28 01:49:05 [http-nio-9090-exec-1] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 01:49:05 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-28 01:49:05 [http-nio-9090-exec-1] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-28 01:49:05 [http-nio-9090-exec-7] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-28 01:49:05 [http-nio-9090-exec-7] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-28 01:50:29 [http-nio-9090-exec-5] INFO  c.e.blog.controller.BlogController - submitting blog from userid 1
-2022-07-28 01:50:29 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - user saved in user's profile
-2022-07-28 01:50:32 [http-nio-9090-exec-2] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 01:50:32 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 01:50:32 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 01:50:32 [http-nio-9090-exec-3] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 01:50:32 [http-nio-9090-exec-3] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 01:50:32 [http-nio-9090-exec-3] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 01:50:32 [http-nio-9090-exec-6] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 01:50:32 [http-nio-9090-exec-6] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 01:50:39 [http-nio-9090-exec-4] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 01:50:39 [http-nio-9090-exec-4] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 01:50:39 [http-nio-9090-exec-4] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 01:50:39 [http-nio-9090-exec-9] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 01:50:39 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 01:50:39 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 01:50:39 [http-nio-9090-exec-7] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 01:50:39 [http-nio-9090-exec-7] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 01:50:52 [http-nio-9090-exec-1] INFO  c.e.blog.controller.BlogController - Edit started for blog 9 by user 1
-2022-07-28 01:50:52 [http-nio-9090-exec-1] INFO  c.e.blog.service.BlogServiceimpl - Last edited date of this blog was 28-07-2022
-2022-07-28 01:50:52 [http-nio-9090-exec-1] INFO  c.e.blog.service.BlogServiceimpl - blog edited successfully on 28-07-2022
-2022-07-28 01:50:55 [http-nio-9090-exec-10] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 01:50:55 [http-nio-9090-exec-10] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 01:50:55 [http-nio-9090-exec-10] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 01:50:55 [http-nio-9090-exec-8] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 01:50:55 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 01:50:55 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 01:50:55 [http-nio-9090-exec-5] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 01:50:55 [http-nio-9090-exec-5] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 01:51:12 [http-nio-9090-exec-2] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 01:51:12 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 01:51:12 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 01:51:12 [http-nio-9090-exec-3] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 01:51:12 [http-nio-9090-exec-3] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 01:51:12 [http-nio-9090-exec-3] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 01:51:12 [http-nio-9090-exec-6] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 01:51:12 [http-nio-9090-exec-6] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 01:51:16 [http-nio-9090-exec-9] WARN  c.e.blog.controller.BlogController - delete blog request for id 9
-2022-07-28 01:51:16 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - blog deleted successfully
-2022-07-28 01:51:19 [http-nio-9090-exec-7] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 01:51:19 [http-nio-9090-exec-7] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 01:51:19 [http-nio-9090-exec-7] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 01:51:19 [http-nio-9090-exec-1] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 01:51:19 [http-nio-9090-exec-1] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 01:51:19 [http-nio-9090-exec-1] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 01:51:19 [http-nio-9090-exec-10] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 01:51:19 [http-nio-9090-exec-10] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 01:51:39 [http-nio-9090-exec-5] INFO  c.e.blog.controller.BlogController - submitting blog from userid 1
-2022-07-28 01:51:39 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - user saved in user's profile
-2022-07-28 01:51:43 [http-nio-9090-exec-8] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 01:51:43 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 01:51:43 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 01:51:43 [http-nio-9090-exec-2] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 01:51:43 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 01:51:43 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 01:51:43 [http-nio-9090-exec-6] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 01:51:43 [http-nio-9090-exec-6] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 01:52:13 [http-nio-9090-exec-3] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 01:52:13 [http-nio-9090-exec-3] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 01:52:13 [http-nio-9090-exec-3] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 01:52:13 [http-nio-9090-exec-4] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 01:52:13 [http-nio-9090-exec-4] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 01:52:13 [http-nio-9090-exec-4] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 01:52:13 [http-nio-9090-exec-9] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 01:52:13 [http-nio-9090-exec-9] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 01:52:26 [http-nio-9090-exec-7] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 01:52:26 [http-nio-9090-exec-7] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 01:52:26 [http-nio-9090-exec-7] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 01:52:26 [http-nio-9090-exec-1] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 01:52:26 [http-nio-9090-exec-1] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 01:52:26 [http-nio-9090-exec-1] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 01:52:26 [http-nio-9090-exec-10] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 01:52:26 [http-nio-9090-exec-10] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 01:52:46 [http-nio-9090-exec-5] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 01:52:46 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 01:52:46 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 01:52:46 [http-nio-9090-exec-8] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 01:52:46 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 01:52:46 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 01:52:46 [http-nio-9090-exec-2] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 01:52:46 [http-nio-9090-exec-2] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 01:53:09 [http-nio-9090-exec-6] INFO  c.e.blog.controller.BlogController - Edit started for blog 10 by user 1
-2022-07-28 01:53:09 [http-nio-9090-exec-6] INFO  c.e.blog.service.BlogServiceimpl - Last edited date of this blog was 28-07-2022
-2022-07-28 01:53:09 [http-nio-9090-exec-6] INFO  c.e.blog.service.BlogServiceimpl - blog edited successfully on 28-07-2022
-2022-07-28 01:53:11 [http-nio-9090-exec-3] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 01:53:11 [http-nio-9090-exec-3] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 01:53:11 [http-nio-9090-exec-3] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 01:53:11 [http-nio-9090-exec-4] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 01:53:11 [http-nio-9090-exec-4] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 01:53:11 [http-nio-9090-exec-4] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 01:53:11 [http-nio-9090-exec-9] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 01:53:11 [http-nio-9090-exec-9] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 01:54:20 [http-nio-9090-exec-5] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 01:54:20 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 01:54:20 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 01:54:20 [http-nio-9090-exec-2] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 01:54:20 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 01:54:20 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 01:54:20 [http-nio-9090-exec-8] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 01:54:20 [http-nio-9090-exec-8] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 01:54:43 [http-nio-9090-exec-3] WARN  c.e.blog.controller.BlogController - delete blog request for id 10
-2022-07-28 01:54:43 [http-nio-9090-exec-3] INFO  c.e.blog.service.BlogServiceimpl - blog deleted successfully
-2022-07-28 01:54:46 [http-nio-9090-exec-4] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 01:54:46 [http-nio-9090-exec-4] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 01:54:46 [http-nio-9090-exec-4] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 01:54:46 [http-nio-9090-exec-9] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 01:54:46 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 01:54:46 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 01:54:46 [http-nio-9090-exec-10] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 01:54:46 [http-nio-9090-exec-10] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 02:01:26 [http-nio-9090-exec-2] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 02:01:26 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 02:01:26 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 02:01:26 [http-nio-9090-exec-8] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 02:01:26 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 02:01:26 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 02:01:26 [http-nio-9090-exec-6] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 02:01:26 [http-nio-9090-exec-6] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 02:01:34 [http-nio-9090-exec-3] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 02:01:34 [http-nio-9090-exec-3] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 02:01:34 [http-nio-9090-exec-3] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 02:01:34 [http-nio-9090-exec-4] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 02:01:34 [http-nio-9090-exec-4] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 02:01:34 [http-nio-9090-exec-4] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 02:01:34 [http-nio-9090-exec-9] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 02:01:34 [http-nio-9090-exec-9] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 02:01:36 [http-nio-9090-exec-10] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-28 02:01:36 [http-nio-9090-exec-10] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-28 02:01:36 [http-nio-9090-exec-7] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 02:01:36 [http-nio-9090-exec-7] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-28 02:01:36 [http-nio-9090-exec-1] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-28 02:01:36 [http-nio-9090-exec-1] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-28 02:01:42 [http-nio-9090-exec-5] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 02:01:42 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 02:01:42 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 02:01:42 [http-nio-9090-exec-2] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 02:01:42 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 02:01:42 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 02:01:42 [http-nio-9090-exec-8] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 02:01:42 [http-nio-9090-exec-8] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 02:04:30 [http-nio-9090-exec-9] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 02:04:30 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 02:04:30 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 02:04:30 [http-nio-9090-exec-10] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 02:04:30 [http-nio-9090-exec-10] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 02:04:30 [http-nio-9090-exec-10] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 02:04:30 [http-nio-9090-exec-7] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 02:04:30 [http-nio-9090-exec-7] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 02:04:52 [http-nio-9090-exec-5] INFO  c.e.blog.controller.UserController - trying to login with credential Login(email=suman@gmail.com, password=Suman@123)
-2022-07-28 02:04:52 [http-nio-9090-exec-5] INFO  c.e.blog.service.UserServiceimpl - login successfully Optional[User(id=13, name=Suman, email=suman@gmail.com, mobile=3423423242, userimg=Suman@userunnamed.jpg, username=Suman@user, password=Suman@123, blogs=[Blog(id=8, title=Web Development, description=Details about web development and it's difficulties, content=am porta arcu ornare mauris dictum scelerisque. Pellentesque interdum, velit vitae mattis semper, enim felis convallis mi, a pellentesque quam mauris ac lectus. Donec euismod magna tempus elit dignissim, tristique tempus ipsum vestibulum. Vivamus vestibulum, mauris vel volutpat iaculis, diam tellus accumsan nisl, id vestibulum tortor nisl sit amet mauris. Maecenas commodo justo sed lacus laoreet aliquet. Maecenas dignissim dolor vel justo blandit sollicitudin. Cras at lacus quis metus ultrices aliquam a nec nisl. Integer dignissim eros nec odio gravida auctor. Sed volutpat molestie eros quis mollis. Etiam aliquam ex a arcu imperdiet venenatis. Morbi et magna non mauris feugiat fringilla et eget enim. Curabitur massa orci, mollis in vestibulum vel, laoreet quis arcu.
-
-Duis efficitur suscipit accumsan. Nulla congue libero non volutpat ornare. Quisque lacus ipsum, tincidunt et erat vel, finibus eleifend diam. Vivamus suscipit fringilla sagittis. Suspendisse vitae maximus eros. Praesent ac ipsum feugiat, luctus purus id, pretium turpis. In hac habitasse platea dictumst. Praesent ornare augue bibendum orci accumsan ornare. Aliquam euismod, elit eu ultrices fringilla, odio nisl semper turpis, eleifend elementum nibh ligula id diam. Nulla orci metus, auctor eget sapien ut, semper laoreet odio. Phasellus eu dui vitae sem egestas finibus. Nulla rhoncus, justo sed rhoncus feugiat, ante velit consequat ligula, quis facilisis sem nisl sed lorem. Aliquam dapibus massa nec finibus vestibulum.
-
-Cras facilisis, elit vitae ullamcorper ultricies, lacus ipsum tristique lacus, at suscipit magna lacus finibus ex. Curabitur suscipit elit at erat auctor tempor. Pellentesque vehicula in leo luctus pharetra. Vivamus gravida at velit dapibus tempus. Cras convallis libero eget arcu tincidunt, ac facilisis augue semper. Donec tempor id tortor eu porta. Vivamus congue commodo lacus. In hac habitasse platea dictumst. Cras et sagittis enim, quis sagittis massa. Proin venenatis, purus quis blandit elementum, nisi purus mollis ex, at porta felis lectus nec turpis. Ut in ullamcorper felis, quis porta erat. Duis sapien risus, bibendum in efficitur in, eleifend a ex. Curabitur vestibulum auctor luctus.
-
-Ut mollis tellus vel turpis viverra tristique. Nullam eu metus et ex malesuada congue. Duis eu tellus blandit, placerat arcu in, faucibus lorem. In rutrum luctus maximus. In nec velit a est porttitor malesuada in ac nunc. Quisque, uid=13, dateofpublish=27-07-2022, votecount=1, votes=[Vote(id=34, bid=0, userid=1)])])]
-2022-07-28 02:04:56 [http-nio-9090-exec-2] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-28 02:04:56 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-28 02:04:56 [http-nio-9090-exec-8] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 02:04:56 [http-nio-9090-exec-8] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-28 02:04:56 [http-nio-9090-exec-3] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-28 02:04:56 [http-nio-9090-exec-3] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-28 02:04:56 [http-nio-9090-exec-4] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 02:04:56 [http-nio-9090-exec-4] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 02:05:59 [http-nio-9090-exec-1] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 02:05:59 [http-nio-9090-exec-1] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-28 02:05:59 [http-nio-9090-exec-7] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-28 02:05:59 [http-nio-9090-exec-7] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-28 02:05:59 [http-nio-9090-exec-5] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-28 02:05:59 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-28 02:15:03 [http-nio-9090-exec-8] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-28 02:15:03 [http-nio-9090-exec-3] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 02:15:03 [http-nio-9090-exec-3] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-28 02:15:03 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-28 02:15:03 [http-nio-9090-exec-4] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-28 02:15:03 [http-nio-9090-exec-4] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-28 02:20:01 [http-nio-9090-exec-10] INFO  c.e.blog.controller.UserController - trying to login with credential Login(email=tamal@hd.com, password=tamal@1234d)
-2022-07-28 02:20:01 [http-nio-9090-exec-10] INFO  c.e.blog.service.UserServiceimpl - login successfully Optional[User(id=8, name=tamal, email=tamal@hd.com, mobile=4332423242, userimg=tamal@user1child .jpg, username=tamal@user1, password=tamal@1234d, blogs=[])]
-2022-07-28 02:20:04 [http-nio-9090-exec-9] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-28 02:20:04 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-28 02:20:04 [http-nio-9090-exec-1] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 02:20:04 [http-nio-9090-exec-1] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-28 02:20:04 [http-nio-9090-exec-7] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-28 02:20:04 [http-nio-9090-exec-7] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-28 02:20:04 [http-nio-9090-exec-5] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 02:20:04 [http-nio-9090-exec-5] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 02:20:07 [http-nio-9090-exec-2] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 02:20:07 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 02:20:07 [http-nio-9090-exec-3] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 02:20:07 [http-nio-9090-exec-3] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 02:20:07 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 02:20:07 [http-nio-9090-exec-8] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 02:20:07 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 02:20:07 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 02:20:07 [http-nio-9090-exec-4] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 02:20:07 [http-nio-9090-exec-4] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 02:20:10 [http-nio-9090-exec-6] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 02:20:10 [http-nio-9090-exec-6] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 02:20:25 [http-nio-9090-exec-10] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 02:20:25 [http-nio-9090-exec-10] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 02:21:34 [http-nio-9090-exec-5] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 02:21:34 [http-nio-9090-exec-5] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 02:21:37 [http-nio-9090-exec-3] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 02:21:37 [http-nio-9090-exec-3] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 02:21:37 [http-nio-9090-exec-2] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 02:21:37 [http-nio-9090-exec-2] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 02:21:37 [http-nio-9090-exec-3] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 02:21:37 [http-nio-9090-exec-8] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 02:21:37 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 02:21:37 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 02:21:37 [http-nio-9090-exec-4] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 02:21:37 [http-nio-9090-exec-4] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 02:21:48 [http-nio-9090-exec-6] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-28 02:21:48 [http-nio-9090-exec-6] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-28 02:21:48 [http-nio-9090-exec-10] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 02:21:48 [http-nio-9090-exec-9] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-28 02:21:48 [http-nio-9090-exec-10] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-28 02:21:48 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-28 02:22:08 [http-nio-9090-exec-1] INFO  c.e.blog.controller.UserController - trying to login with credential Login(email=suman@gmail.com, password=Suman@123)
-2022-07-28 02:22:08 [http-nio-9090-exec-1] INFO  c.e.blog.service.UserServiceimpl - login successfully Optional[User(id=13, name=Suman, email=suman@gmail.com, mobile=3423423242, userimg=Suman@userunnamed.jpg, username=Suman@user, password=Suman@123, blogs=[Blog(id=8, title=Web Development, description=Details about web development and it's difficulties, content=am porta arcu ornare mauris dictum scelerisque. Pellentesque interdum, velit vitae mattis semper, enim felis convallis mi, a pellentesque quam mauris ac lectus. Donec euismod magna tempus elit dignissim, tristique tempus ipsum vestibulum. Vivamus vestibulum, mauris vel volutpat iaculis, diam tellus accumsan nisl, id vestibulum tortor nisl sit amet mauris. Maecenas commodo justo sed lacus laoreet aliquet. Maecenas dignissim dolor vel justo blandit sollicitudin. Cras at lacus quis metus ultrices aliquam a nec nisl. Integer dignissim eros nec odio gravida auctor. Sed volutpat molestie eros quis mollis. Etiam aliquam ex a arcu imperdiet venenatis. Morbi et magna non mauris feugiat fringilla et eget enim. Curabitur massa orci, mollis in vestibulum vel, laoreet quis arcu.
-
-Duis efficitur suscipit accumsan. Nulla congue libero non volutpat ornare. Quisque lacus ipsum, tincidunt et erat vel, finibus eleifend diam. Vivamus suscipit fringilla sagittis. Suspendisse vitae maximus eros. Praesent ac ipsum feugiat, luctus purus id, pretium turpis. In hac habitasse platea dictumst. Praesent ornare augue bibendum orci accumsan ornare. Aliquam euismod, elit eu ultrices fringilla, odio nisl semper turpis, eleifend elementum nibh ligula id diam. Nulla orci metus, auctor eget sapien ut, semper laoreet odio. Phasellus eu dui vitae sem egestas finibus. Nulla rhoncus, justo sed rhoncus feugiat, ante velit consequat ligula, quis facilisis sem nisl sed lorem. Aliquam dapibus massa nec finibus vestibulum.
-
-Cras facilisis, elit vitae ullamcorper ultricies, lacus ipsum tristique lacus, at suscipit magna lacus finibus ex. Curabitur suscipit elit at erat auctor tempor. Pellentesque vehicula in leo luctus pharetra. Vivamus gravida at velit dapibus tempus. Cras convallis libero eget arcu tincidunt, ac facilisis augue semper. Donec tempor id tortor eu porta. Vivamus congue commodo lacus. In hac habitasse platea dictumst. Cras et sagittis enim, quis sagittis massa. Proin venenatis, purus quis blandit elementum, nisi purus mollis ex, at porta felis lectus nec turpis. Ut in ullamcorper felis, quis porta erat. Duis sapien risus, bibendum in efficitur in, eleifend a ex. Curabitur vestibulum auctor luctus.
-
-Ut mollis tellus vel turpis viverra tristique. Nullam eu metus et ex malesuada congue. Duis eu tellus blandit, placerat arcu in, faucibus lorem. In rutrum luctus maximus. In nec velit a est porttitor malesuada in ac nunc. Quisque, uid=13, dateofpublish=27-07-2022, votecount=1, votes=[Vote(id=34, bid=0, userid=1)])])]
-2022-07-28 02:22:11 [http-nio-9090-exec-7] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-28 02:22:11 [http-nio-9090-exec-7] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-28 02:22:11 [http-nio-9090-exec-5] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 02:22:11 [http-nio-9090-exec-5] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-28 02:22:11 [http-nio-9090-exec-2] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-28 02:22:11 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-28 02:22:11 [http-nio-9090-exec-3] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 02:22:11 [http-nio-9090-exec-3] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 02:22:25 [http-nio-9090-exec-8] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 02:22:25 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 02:22:25 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 02:22:25 [http-nio-9090-exec-4] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 02:22:25 [http-nio-9090-exec-4] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 02:22:25 [http-nio-9090-exec-6] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 02:22:25 [http-nio-9090-exec-6] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 02:22:25 [http-nio-9090-exec-6] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 02:22:31 [http-nio-9090-exec-10] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 02:22:31 [http-nio-9090-exec-10] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 02:24:01 [http-nio-9090-exec-5] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 02:24:01 [http-nio-9090-exec-5] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 02:24:49 [http-nio-9090-exec-3] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 02:24:49 [http-nio-9090-exec-3] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 02:24:49 [http-nio-9090-exec-3] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 02:24:49 [http-nio-9090-exec-4] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 02:24:49 [http-nio-9090-exec-4] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 02:24:49 [http-nio-9090-exec-8] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 02:24:49 [http-nio-9090-exec-8] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 02:24:49 [http-nio-9090-exec-4] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 02:24:55 [http-nio-9090-exec-10] INFO  c.e.blog.controller.VoteController - voting start
-2022-07-28 02:24:55 [http-nio-9090-exec-10] INFO  c.e.blog.service.VoteServiceimpl - vote complete for user 13
-2022-07-28 02:25:00 [http-nio-9090-exec-1] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 02:25:00 [http-nio-9090-exec-1] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 02:25:00 [http-nio-9090-exec-9] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 02:25:00 [http-nio-9090-exec-9] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 02:25:00 [http-nio-9090-exec-1] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 02:25:00 [http-nio-9090-exec-7] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 02:25:00 [http-nio-9090-exec-7] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 02:25:00 [http-nio-9090-exec-7] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 02:25:51 [http-nio-9090-exec-5] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 02:25:51 [http-nio-9090-exec-5] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 02:29:53 [http-nio-9090-exec-4] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 02:29:53 [http-nio-9090-exec-4] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 02:29:53 [http-nio-9090-exec-4] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 02:29:53 [http-nio-9090-exec-6] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 02:29:53 [http-nio-9090-exec-6] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 02:29:53 [http-nio-9090-exec-10] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 02:29:53 [http-nio-9090-exec-6] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 02:29:53 [http-nio-9090-exec-10] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 02:30:12 [http-nio-9090-exec-9] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 02:30:12 [http-nio-9090-exec-9] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 02:30:14 [http-nio-9090-exec-7] INFO  c.e.blog.controller.BlogController - Edit started for blog 8 by user 13
-2022-07-28 02:30:14 [http-nio-9090-exec-7] INFO  c.e.blog.service.BlogServiceimpl - Last edited date of this blog was 27-07-2022
-2022-07-28 02:30:14 [http-nio-9090-exec-7] INFO  c.e.blog.service.BlogServiceimpl - blog edited successfully on 28-07-2022
-2022-07-28 02:30:16 [http-nio-9090-exec-5] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 02:30:16 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 02:30:16 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 02:30:17 [http-nio-9090-exec-2] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 02:30:17 [http-nio-9090-exec-2] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 02:30:17 [http-nio-9090-exec-3] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 02:30:17 [http-nio-9090-exec-3] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 02:30:17 [http-nio-9090-exec-3] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 02:30:44 [http-nio-9090-exec-8] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-28 02:30:44 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-28 02:30:44 [http-nio-9090-exec-4] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 02:30:44 [http-nio-9090-exec-4] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-28 02:30:44 [http-nio-9090-exec-10] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-28 02:30:44 [http-nio-9090-exec-10] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-28 02:30:44 [http-nio-9090-exec-6] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 02:30:44 [http-nio-9090-exec-6] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 02:31:50 [http-nio-9090-exec-2] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 02:31:50 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 02:31:50 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 02:31:50 [http-nio-9090-exec-5] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 02:31:50 [http-nio-9090-exec-3] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 02:31:50 [http-nio-9090-exec-3] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 02:31:50 [http-nio-9090-exec-5] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 02:31:50 [http-nio-9090-exec-3] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 02:32:03 [http-nio-9090-exec-8] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 02:32:03 [http-nio-9090-exec-8] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 02:32:08 [http-nio-9090-exec-4] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 02:32:08 [http-nio-9090-exec-4] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 02:32:17 [http-nio-9090-exec-10] INFO  c.e.blog.controller.BlogController - Edit started for blog 8 by user 13
-2022-07-28 02:32:17 [http-nio-9090-exec-10] INFO  c.e.blog.service.BlogServiceimpl - Last edited date of this blog was 28-07-2022
-2022-07-28 02:32:17 [http-nio-9090-exec-10] INFO  c.e.blog.service.BlogServiceimpl - blog edited successfully on 28-07-2022
-2022-07-28 02:32:20 [http-nio-9090-exec-6] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 02:32:20 [http-nio-9090-exec-6] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 02:32:20 [http-nio-9090-exec-6] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 02:32:20 [http-nio-9090-exec-9] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 02:32:20 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 02:32:20 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 02:32:20 [http-nio-9090-exec-1] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 02:32:20 [http-nio-9090-exec-1] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 02:32:36 [http-nio-9090-exec-7] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 02:32:36 [http-nio-9090-exec-7] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 02:33:01 [http-nio-9090-exec-8] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 02:33:01 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 02:33:01 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 02:33:01 [http-nio-9090-exec-4] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 02:33:01 [http-nio-9090-exec-4] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 02:33:01 [http-nio-9090-exec-4] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 02:33:01 [http-nio-9090-exec-10] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 02:33:01 [http-nio-9090-exec-10] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 02:33:28 [http-nio-9090-exec-6] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 02:33:28 [http-nio-9090-exec-6] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 02:34:12 [http-nio-9090-exec-7] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-28 02:34:12 [http-nio-9090-exec-7] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-28 02:34:12 [http-nio-9090-exec-5] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 02:34:12 [http-nio-9090-exec-5] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-28 02:34:12 [http-nio-9090-exec-2] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-28 02:34:12 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-28 02:34:12 [http-nio-9090-exec-3] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 02:34:12 [http-nio-9090-exec-3] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 02:34:19 [http-nio-9090-exec-8] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 02:34:19 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 02:34:19 [http-nio-9090-exec-4] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 02:34:19 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 02:34:19 [http-nio-9090-exec-4] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 02:34:19 [http-nio-9090-exec-10] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 02:34:19 [http-nio-9090-exec-10] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 02:34:19 [http-nio-9090-exec-10] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 02:34:30 [http-nio-9090-exec-6] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 02:34:30 [http-nio-9090-exec-6] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 02:34:39 [http-nio-9090-exec-1] INFO  c.e.blog.controller.BlogController - Edit started for blog 8 by user 13
-2022-07-28 02:34:39 [http-nio-9090-exec-1] INFO  c.e.blog.service.BlogServiceimpl - Last edited date of this blog was 28-07-2022
-2022-07-28 02:34:39 [http-nio-9090-exec-1] INFO  c.e.blog.service.BlogServiceimpl - blog edited successfully on 28-07-2022
-2022-07-28 02:34:42 [http-nio-9090-exec-9] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 02:34:42 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 02:34:42 [http-nio-9090-exec-7] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 02:34:42 [http-nio-9090-exec-7] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 02:34:42 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 02:34:42 [http-nio-9090-exec-5] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 02:34:42 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 02:34:42 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 02:34:50 [http-nio-9090-exec-2] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 02:34:50 [http-nio-9090-exec-2] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 02:34:50 [http-nio-9090-exec-3] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 02:34:50 [http-nio-9090-exec-3] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 02:34:55 [http-nio-9090-exec-8] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-28 02:34:55 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-28 02:34:55 [http-nio-9090-exec-4] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 02:34:55 [http-nio-9090-exec-4] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-28 02:34:55 [http-nio-9090-exec-10] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-28 02:34:55 [http-nio-9090-exec-10] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-28 02:34:55 [http-nio-9090-exec-6] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 02:34:55 [http-nio-9090-exec-6] INFO  c.e.blog.controller.UserController - picture served
-2022-07-28 02:34:58 [http-nio-9090-exec-1] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-28 02:34:58 [http-nio-9090-exec-1] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-28 02:34:58 [http-nio-9090-exec-7] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 02:34:58 [http-nio-9090-exec-7] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-28 02:34:58 [http-nio-9090-exec-9] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-28 02:34:58 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-28 02:35:39 [http-nio-9090-exec-5] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-28 02:35:39 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-28 02:35:39 [http-nio-9090-exec-2] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 02:35:39 [http-nio-9090-exec-2] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-28 02:35:39 [http-nio-9090-exec-3] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-28 02:35:39 [http-nio-9090-exec-3] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-28 02:35:42 [http-nio-9090-exec-8] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 02:35:42 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 02:35:42 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 02:35:42 [http-nio-9090-exec-4] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-28 02:35:42 [http-nio-9090-exec-4] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-28 02:35:42 [http-nio-9090-exec-4] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-28 02:35:42 [http-nio-9090-exec-10] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-28 02:35:42 [http-nio-9090-exec-10] INFO  c.e.blog.controller.UserController - picture served
+2022-07-29 00:00:34 [http-nio-9090-exec-2] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-07-29 00:00:34 [http-nio-9090-exec-2] INFO  c.e.blog.controller.UserController - picture served
+2022-07-29 00:00:34 [http-nio-9090-exec-1] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-07-29 00:00:34 [http-nio-9090-exec-1] INFO  c.e.blog.controller.UserController - picture served
+2022-07-29 00:00:37 [http-nio-9090-exec-8] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-07-29 00:00:37 [http-nio-9090-exec-8] INFO  c.e.blog.controller.UserController - picture served
+2022-07-29 00:00:39 [http-nio-9090-exec-10] INFO  c.e.blog.controller.VoteController - voting start
+2022-07-29 00:00:39 [http-nio-9090-exec-10] INFO  c.e.blog.service.VoteServiceimpl - vote complete for user 20
+2022-07-29 00:00:43 [http-nio-9090-exec-9] INFO  c.e.blog.controller.BlogController - request for all blogs
+2022-07-29 00:00:43 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
+2022-07-29 00:00:43 [http-nio-9090-exec-7] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-07-29 00:00:43 [http-nio-9090-exec-7] INFO  c.e.blog.controller.UserController - picture served
+2022-07-29 00:00:43 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
+2022-07-29 00:00:43 [http-nio-9090-exec-2] INFO  c.e.blog.controller.BlogController - request for all blogs
+2022-07-29 00:00:43 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
+2022-07-29 00:00:43 [http-nio-9090-exec-1] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-07-29 00:00:43 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
+2022-07-29 00:00:43 [http-nio-9090-exec-5] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-07-29 00:00:43 [http-nio-9090-exec-5] INFO  c.e.blog.controller.UserController - picture served
+2022-07-29 00:00:43 [http-nio-9090-exec-1] INFO  c.e.blog.controller.UserController - picture served
+2022-07-29 00:01:45 [http-nio-9090-exec-10] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-07-29 00:01:45 [http-nio-9090-exec-10] INFO  c.e.blog.controller.UserController - picture served
+2022-07-29 00:01:56 [http-nio-9090-exec-9] WARN  c.e.blog.controller.BlogController - delete blog request for id 12
+2022-07-29 00:01:56 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - blog deleted successfully
+2022-07-29 00:02:00 [http-nio-9090-exec-5] INFO  c.e.blog.controller.BlogController - request for all blogs
+2022-07-29 00:02:00 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
+2022-07-29 00:02:00 [http-nio-9090-exec-1] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-07-29 00:02:00 [http-nio-9090-exec-1] INFO  c.e.blog.controller.UserController - picture served
+2022-07-29 00:02:00 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
+2022-07-29 00:02:00 [http-nio-9090-exec-2] INFO  c.e.blog.controller.BlogController - request for all blogs
+2022-07-29 00:02:00 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
+2022-07-29 00:02:00 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
+2022-07-29 00:02:00 [http-nio-9090-exec-3] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-07-29 00:02:00 [http-nio-9090-exec-3] INFO  c.e.blog.controller.UserController - picture served
+2022-07-29 00:02:07 [http-nio-9090-exec-6] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-07-29 00:02:07 [http-nio-9090-exec-6] INFO  c.e.blog.controller.UserController - picture served
+2022-07-29 00:03:47 [http-nio-9090-exec-7] INFO  c.e.blog.controller.BlogController - getting blog of the day
+2022-07-29 00:03:47 [http-nio-9090-exec-7] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
+2022-07-29 00:03:47 [http-nio-9090-exec-9] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-07-29 00:03:47 [http-nio-9090-exec-9] ERROR c.e.blog.service.UserServiceimpl - picture not found
+2022-07-29 00:03:47 [http-nio-9090-exec-1] INFO  c.e.blog.controller.BlogController - getting blog of the day
+2022-07-29 00:03:47 [http-nio-9090-exec-1] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
+2022-07-29 00:03:47 [http-nio-9090-exec-5] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-07-29 00:03:47 [http-nio-9090-exec-5] INFO  c.e.blog.controller.UserController - picture served
+2022-07-29 00:04:00 [http-nio-9090-exec-2] INFO  c.e.blog.controller.BlogController - getting blog of the day
+2022-07-29 00:04:00 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
+2022-07-29 00:04:00 [http-nio-9090-exec-3] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-07-29 00:04:00 [http-nio-9090-exec-3] ERROR c.e.blog.service.UserServiceimpl - picture not found
+2022-07-29 00:04:00 [http-nio-9090-exec-6] INFO  c.e.blog.controller.BlogController - getting blog of the day
+2022-07-29 00:04:00 [http-nio-9090-exec-6] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
+2022-07-29 00:04:00 [http-nio-9090-exec-8] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-07-29 00:04:00 [http-nio-9090-exec-8] INFO  c.e.blog.controller.UserController - picture served
+2022-07-29 00:04:10 [http-nio-9090-exec-4] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-07-29 00:04:10 [http-nio-9090-exec-4] INFO  c.e.blog.controller.UserController - picture served
+2022-07-29 00:04:20 [http-nio-9090-exec-10] INFO  c.e.blog.controller.BlogController - request for all blogs
+2022-07-29 00:04:20 [http-nio-9090-exec-10] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
+2022-07-29 00:04:20 [http-nio-9090-exec-7] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-07-29 00:04:20 [http-nio-9090-exec-7] INFO  c.e.blog.controller.UserController - picture served
+2022-07-29 00:04:20 [http-nio-9090-exec-10] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
+2022-07-29 00:04:20 [http-nio-9090-exec-9] INFO  c.e.blog.controller.BlogController - request for all blogs
+2022-07-29 00:04:20 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
+2022-07-29 00:04:20 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
+2022-07-29 00:04:20 [http-nio-9090-exec-1] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-07-29 00:04:20 [http-nio-9090-exec-1] INFO  c.e.blog.controller.UserController - picture served
+2022-07-29 00:04:28 [http-nio-9090-exec-3] INFO  c.e.blog.controller.VoteController - voting start
+2022-07-29 00:04:28 [http-nio-9090-exec-3] INFO  c.e.blog.service.VoteServiceimpl - vote complete for user 20
+2022-07-29 00:05:08 [http-nio-9090-exec-2] INFO  c.e.blog.controller.BlogController - request for all blogs
+2022-07-29 00:05:08 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
+2022-07-29 00:05:08 [http-nio-9090-exec-6] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-07-29 00:05:08 [http-nio-9090-exec-6] INFO  c.e.blog.controller.UserController - picture served
+2022-07-29 00:05:08 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
+2022-07-29 00:05:08 [http-nio-9090-exec-8] INFO  c.e.blog.controller.BlogController - request for all blogs
+2022-07-29 00:05:08 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
+2022-07-29 00:05:08 [http-nio-9090-exec-4] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-07-29 00:05:08 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
+2022-07-29 00:05:08 [http-nio-9090-exec-4] INFO  c.e.blog.controller.UserController - picture served
+2022-07-29 00:05:49 [http-nio-9090-exec-7] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-07-29 00:05:49 [http-nio-9090-exec-7] INFO  c.e.blog.controller.UserController - picture served
+2022-07-29 00:06:09 [http-nio-9090-exec-5] INFO  c.e.blog.controller.BlogController - submitting blog from userid 20
+2022-07-29 00:06:09 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - user saved in user's profile
+2022-07-29 00:06:12 [http-nio-9090-exec-3] INFO  c.e.blog.controller.BlogController - request for all blogs
+2022-07-29 00:06:12 [http-nio-9090-exec-3] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
+2022-07-29 00:06:12 [http-nio-9090-exec-6] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-07-29 00:06:12 [http-nio-9090-exec-6] INFO  c.e.blog.controller.UserController - picture served
+2022-07-29 00:06:12 [http-nio-9090-exec-3] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
+2022-07-29 00:06:12 [http-nio-9090-exec-2] INFO  c.e.blog.controller.BlogController - request for all blogs
+2022-07-29 00:06:12 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
+2022-07-29 00:06:12 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
+2022-07-29 00:06:12 [http-nio-9090-exec-4] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-07-29 00:06:12 [http-nio-9090-exec-4] INFO  c.e.blog.controller.UserController - picture served
+2022-07-29 00:06:12 [http-nio-9090-exec-8] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-07-29 00:06:12 [http-nio-9090-exec-8] INFO  c.e.blog.controller.UserController - picture served
+2022-07-29 00:06:17 [http-nio-9090-exec-7] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-07-29 00:06:17 [http-nio-9090-exec-7] INFO  c.e.blog.controller.UserController - picture served
+2022-07-29 00:07:29 [http-nio-9090-exec-8] INFO  c.e.blog.controller.BlogController - getting blog of the day
+2022-07-29 00:07:29 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
+2022-07-29 00:07:29 [http-nio-9090-exec-2] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-07-29 00:07:29 [http-nio-9090-exec-2] ERROR c.e.blog.service.UserServiceimpl - picture not found
+2022-07-29 00:07:29 [http-nio-9090-exec-7] INFO  c.e.blog.controller.BlogController - getting blog of the day
+2022-07-29 00:07:29 [http-nio-9090-exec-7] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
+2022-07-29 00:07:29 [http-nio-9090-exec-9] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-07-29 00:07:29 [http-nio-9090-exec-9] INFO  c.e.blog.controller.UserController - picture served
+2022-07-29 00:07:32 [http-nio-9090-exec-10] INFO  c.e.blog.controller.BlogController - request for all blogs
+2022-07-29 00:07:32 [http-nio-9090-exec-10] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
+2022-07-29 00:07:32 [http-nio-9090-exec-1] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-07-29 00:07:32 [http-nio-9090-exec-1] INFO  c.e.blog.controller.UserController - picture served
+2022-07-29 00:07:32 [http-nio-9090-exec-10] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
+2022-07-29 00:07:32 [http-nio-9090-exec-5] INFO  c.e.blog.controller.BlogController - request for all blogs
+2022-07-29 00:07:32 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
+2022-07-29 00:07:32 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
+2022-07-29 00:07:32 [http-nio-9090-exec-6] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-07-29 00:07:32 [http-nio-9090-exec-6] INFO  c.e.blog.controller.UserController - picture served
+2022-07-29 00:07:32 [http-nio-9090-exec-3] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-07-29 00:07:32 [http-nio-9090-exec-3] INFO  c.e.blog.controller.UserController - picture served
+2022-07-29 00:07:39 [http-nio-9090-exec-2] INFO  c.e.blog.controller.VoteController - voting start
+2022-07-29 00:07:39 [http-nio-9090-exec-2] WARN  c.e.blog.service.VoteServiceimpl - unvoting blog 1 by user 20
+2022-07-29 00:07:44 [http-nio-9090-exec-8] INFO  c.e.blog.controller.BlogController - request for all blogs
+2022-07-29 00:07:44 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
+2022-07-29 00:07:44 [http-nio-9090-exec-7] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-07-29 00:07:44 [http-nio-9090-exec-7] INFO  c.e.blog.controller.UserController - picture served
+2022-07-29 00:07:44 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
+2022-07-29 00:07:44 [http-nio-9090-exec-9] INFO  c.e.blog.controller.BlogController - request for all blogs
+2022-07-29 00:07:44 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
+2022-07-29 00:07:44 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
+2022-07-29 00:07:44 [http-nio-9090-exec-1] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-07-29 00:07:44 [http-nio-9090-exec-10] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-07-29 00:07:44 [http-nio-9090-exec-10] INFO  c.e.blog.controller.UserController - picture served
+2022-07-29 00:07:44 [http-nio-9090-exec-1] INFO  c.e.blog.controller.UserController - picture served
+2022-07-29 00:08:37 [http-nio-9090-exec-6] INFO  c.e.blog.controller.BlogController - getting blog of the day
+2022-07-29 00:08:37 [http-nio-9090-exec-6] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
+2022-07-29 00:08:37 [http-nio-9090-exec-5] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-07-29 00:08:37 [http-nio-9090-exec-5] ERROR c.e.blog.service.UserServiceimpl - picture not found
+2022-07-29 00:08:37 [http-nio-9090-exec-3] INFO  c.e.blog.controller.BlogController - getting blog of the day
+2022-07-29 00:08:37 [http-nio-9090-exec-3] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
+2022-07-29 00:09:31 [http-nio-9090-exec-2] INFO  c.e.blog.controller.BlogController - request for all blogs
+2022-07-29 00:09:31 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
+2022-07-29 00:09:31 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
+2022-07-29 00:09:31 [http-nio-9090-exec-7] INFO  c.e.blog.controller.BlogController - request for all blogs
+2022-07-29 00:09:31 [http-nio-9090-exec-7] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
+2022-07-29 00:09:31 [http-nio-9090-exec-7] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
+2022-07-29 00:09:31 [http-nio-9090-exec-10] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-07-29 00:09:31 [http-nio-9090-exec-8] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-07-29 00:09:31 [http-nio-9090-exec-10] INFO  c.e.blog.controller.UserController - picture served
+2022-07-29 00:09:31 [http-nio-9090-exec-8] INFO  c.e.blog.controller.UserController - picture served
+2022-07-29 00:28:10 [http-nio-9090-exec-3] INFO  c.e.blog.controller.BlogController - getting blog of the day
+2022-07-29 00:28:10 [http-nio-9090-exec-4] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-07-29 00:28:10 [http-nio-9090-exec-4] ERROR c.e.blog.service.UserServiceimpl - picture not found
+2022-07-29 00:28:10 [http-nio-9090-exec-3] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
+2022-07-29 00:28:10 [http-nio-9090-exec-2] INFO  c.e.blog.controller.BlogController - getting blog of the day
+2022-07-29 00:28:10 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
+2022-07-29 00:32:05 [http-nio-9090-exec-8] INFO  c.e.blog.controller.BlogController - getting blog of the day
+2022-07-29 00:32:05 [http-nio-9090-exec-1] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-07-29 00:32:05 [http-nio-9090-exec-1] ERROR c.e.blog.service.UserServiceimpl - picture not found
+2022-07-29 00:32:05 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
+2022-07-29 00:32:05 [http-nio-9090-exec-9] INFO  c.e.blog.controller.BlogController - getting blog of the day
+2022-07-29 00:32:05 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
+2022-07-29 00:34:27 [http-nio-9090-exec-4] INFO  c.e.blog.controller.BlogController - getting blog of the day
+2022-07-29 00:34:27 [http-nio-9090-exec-3] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-07-29 00:34:27 [http-nio-9090-exec-3] ERROR c.e.blog.service.UserServiceimpl - picture not found
+2022-07-29 00:34:27 [http-nio-9090-exec-4] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
+2022-07-29 00:34:27 [http-nio-9090-exec-2] INFO  c.e.blog.controller.BlogController - getting blog of the day
+2022-07-29 00:34:27 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
+2022-07-29 00:35:09 [http-nio-9090-exec-10] INFO  c.e.blog.controller.BlogController - request for all blogs
+2022-07-29 00:35:09 [http-nio-9090-exec-10] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
+2022-07-29 00:35:09 [http-nio-9090-exec-10] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
+2022-07-29 00:35:09 [http-nio-9090-exec-7] INFO  c.e.blog.controller.BlogController - request for all blogs
+2022-07-29 00:35:09 [http-nio-9090-exec-7] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
+2022-07-29 00:35:09 [http-nio-9090-exec-7] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
+2022-07-29 00:35:09 [http-nio-9090-exec-8] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-07-29 00:35:09 [http-nio-9090-exec-1] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-07-29 00:35:09 [http-nio-9090-exec-8] INFO  c.e.blog.controller.UserController - picture served
+2022-07-29 00:35:09 [http-nio-9090-exec-1] INFO  c.e.blog.controller.UserController - picture served
+2022-07-29 00:35:15 [http-nio-9090-exec-9] INFO  c.e.blog.controller.BlogController - getting blog of the day
+2022-07-29 00:35:15 [http-nio-9090-exec-6] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-07-29 00:35:15 [http-nio-9090-exec-6] ERROR c.e.blog.service.UserServiceimpl - picture not found
+2022-07-29 00:35:15 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
+2022-07-29 00:35:15 [http-nio-9090-exec-5] INFO  c.e.blog.controller.BlogController - getting blog of the day
+2022-07-29 00:35:15 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!

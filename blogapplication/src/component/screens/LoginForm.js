@@ -3,7 +3,7 @@ import { Formik, Form} from 'formik';
 import {TextBar} from './TextBar';
 import * as Yup from 'yup';
 import { Link } from "react-router-dom";
-import base_url from '../api/Bootapi';
+import {base_url} from '../api/Bootapi';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import axios from 'axios';
@@ -18,9 +18,10 @@ function LoginForm(){
       .required('Password is required'),
   })
   const sendData=(data)=>{
-    axios.post(`${base_url}/login`,data).then(res=>{
+    axios.post(`${base_url}/authenticate`,data).then(res=>{
         console.log(res);
-      localStorage.setItem("user",JSON.stringify(res.data));
+      localStorage.setItem("user",JSON.stringify(res.data.user));
+      localStorage.setItem("jwtToken",JSON.stringify(res.data.token));
       toast.success('Welcome user',{autoClose: 2000});
       setTimeout(() => {  window.location.replace('/'); }, 2000);
     }).catch(err=>{

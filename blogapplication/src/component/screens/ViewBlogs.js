@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import base_url from "../api/Bootapi";
+import {base_url} from "../api/Bootapi";
 import Loader from "./Loader";
 import { Container} from 'react-bootstrap';
 import Form from 'react-bootstrap/Form';
