@@ -83,13 +83,13 @@ function HomePage(){
                         <IconContext.Provider value={{ style:{height:20,width:20,marginRight:15,color:"green"}}}>
                             <BsCheckCircleFill/>
                         </IconContext.Provider>
-                        <p>Promote Blogs By commenting</p>
+                        <p>Give your valuable opinion by voting and unvoting</p>
                     </div>
                     <div className="d-flex">
                         <IconContext.Provider value={{ style:{height:20,width:20,marginRight:15,color:"green"}}}>
                             <BsCheckCircleFill/>
                         </IconContext.Provider>
-                        <p>Be the Face of Our Website By Getting More Votes </p>
+                        <p>Be the Face of Our Website By Getting More Votes from readers</p>
                     </div>
                 </div>
             </div>

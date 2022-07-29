@@ -13,7 +13,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Component;
 @Component
 public class JwtTokenOperation {
-    public static final long JWT_TOKEN_VALIDITY = 1 * 10 * 60;
+    public static final long JWT_TOKEN_VALIDITY = 2 * 60 *60;
 
 
     @Value("${jwt.secret}")

@@ -32,7 +32,7 @@ const info =
 
         },
         2:{
-            "name":"Highersecondary",
+            "name":"Higher Secondary",
             "Board":"WBCHSE",
             "School":"Panskura Bradley Birt High School",
             "Percentage":"83.80%"
@@ -50,7 +50,7 @@ const info =
         1:{
             "name":"portfolio website",
             "technology":"HTML,css,js,github-pages",
-            "link":"https://subhankarmaji.github.io/"
+            "link":"https://github.com/subhankarmaji/subhankarmaji.github.io.git"
         },
         2:{
             "name":"watch service appointment booking",
