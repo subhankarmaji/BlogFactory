@@ -1,605 +1,289 @@
-2022-07-29 00:00:34 [http-nio-9090-exec-2] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 00:00:34 [http-nio-9090-exec-2] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 00:00:34 [http-nio-9090-exec-1] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 00:00:34 [http-nio-9090-exec-1] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 00:00:37 [http-nio-9090-exec-8] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 00:00:37 [http-nio-9090-exec-8] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 00:00:39 [http-nio-9090-exec-10] INFO  c.e.blog.controller.VoteController - voting start
-2022-07-29 00:00:39 [http-nio-9090-exec-10] INFO  c.e.blog.service.VoteServiceimpl - vote complete for user 20
-2022-07-29 00:00:43 [http-nio-9090-exec-9] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-29 00:00:43 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-29 00:00:43 [http-nio-9090-exec-7] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 00:00:43 [http-nio-9090-exec-7] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 00:00:43 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-29 00:00:43 [http-nio-9090-exec-2] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-29 00:00:43 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-29 00:00:43 [http-nio-9090-exec-1] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 00:00:43 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-29 00:00:43 [http-nio-9090-exec-5] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 00:00:43 [http-nio-9090-exec-5] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 00:00:43 [http-nio-9090-exec-1] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 00:01:45 [http-nio-9090-exec-10] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 00:01:45 [http-nio-9090-exec-10] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 00:01:56 [http-nio-9090-exec-9] WARN  c.e.blog.controller.BlogController - delete blog request for id 12
-2022-07-29 00:01:56 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - blog deleted successfully
-2022-07-29 00:02:00 [http-nio-9090-exec-5] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-29 00:02:00 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-29 00:02:00 [http-nio-9090-exec-1] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 00:02:00 [http-nio-9090-exec-1] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 00:02:00 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-29 00:02:00 [http-nio-9090-exec-2] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-29 00:02:00 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-29 00:02:00 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-29 00:02:00 [http-nio-9090-exec-3] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 00:02:00 [http-nio-9090-exec-3] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 00:02:07 [http-nio-9090-exec-6] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 00:02:07 [http-nio-9090-exec-6] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 00:03:47 [http-nio-9090-exec-7] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-29 00:03:47 [http-nio-9090-exec-7] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-29 00:03:47 [http-nio-9090-exec-9] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 00:03:47 [http-nio-9090-exec-9] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 00:03:47 [http-nio-9090-exec-1] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-29 00:03:47 [http-nio-9090-exec-1] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-29 00:03:47 [http-nio-9090-exec-5] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 00:03:47 [http-nio-9090-exec-5] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 00:04:00 [http-nio-9090-exec-2] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-29 00:04:00 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-29 00:04:00 [http-nio-9090-exec-3] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 00:04:00 [http-nio-9090-exec-3] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 00:04:00 [http-nio-9090-exec-6] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-29 00:04:00 [http-nio-9090-exec-6] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-29 00:04:00 [http-nio-9090-exec-8] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 00:04:00 [http-nio-9090-exec-8] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 00:04:10 [http-nio-9090-exec-4] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 00:04:10 [http-nio-9090-exec-4] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 00:04:20 [http-nio-9090-exec-10] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-29 00:04:20 [http-nio-9090-exec-10] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-29 00:04:20 [http-nio-9090-exec-7] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 00:04:20 [http-nio-9090-exec-7] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 00:04:20 [http-nio-9090-exec-10] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-29 00:04:20 [http-nio-9090-exec-9] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-29 00:04:20 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-29 00:04:20 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-29 00:04:20 [http-nio-9090-exec-1] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 00:04:20 [http-nio-9090-exec-1] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 00:04:28 [http-nio-9090-exec-3] INFO  c.e.blog.controller.VoteController - voting start
-2022-07-29 00:04:28 [http-nio-9090-exec-3] INFO  c.e.blog.service.VoteServiceimpl - vote complete for user 20
-2022-07-29 00:05:08 [http-nio-9090-exec-2] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-29 00:05:08 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-29 00:05:08 [http-nio-9090-exec-6] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 00:05:08 [http-nio-9090-exec-6] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 00:05:08 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-29 00:05:08 [http-nio-9090-exec-8] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-29 00:05:08 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-29 00:05:08 [http-nio-9090-exec-4] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 00:05:08 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-29 00:05:08 [http-nio-9090-exec-4] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 00:05:49 [http-nio-9090-exec-7] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 00:05:49 [http-nio-9090-exec-7] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 00:06:09 [http-nio-9090-exec-5] INFO  c.e.blog.controller.BlogController - submitting blog from userid 20
-2022-07-29 00:06:09 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - user saved in user's profile
-2022-07-29 00:06:12 [http-nio-9090-exec-3] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-29 00:06:12 [http-nio-9090-exec-3] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-29 00:06:12 [http-nio-9090-exec-6] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 00:06:12 [http-nio-9090-exec-6] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 00:06:12 [http-nio-9090-exec-3] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-29 00:06:12 [http-nio-9090-exec-2] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-29 00:06:12 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-29 00:06:12 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-29 00:06:12 [http-nio-9090-exec-4] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 00:06:12 [http-nio-9090-exec-4] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 00:06:12 [http-nio-9090-exec-8] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 00:06:12 [http-nio-9090-exec-8] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 00:06:17 [http-nio-9090-exec-7] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 00:06:17 [http-nio-9090-exec-7] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 00:07:29 [http-nio-9090-exec-8] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-29 00:07:29 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-29 00:07:29 [http-nio-9090-exec-2] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 00:07:29 [http-nio-9090-exec-2] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 00:07:29 [http-nio-9090-exec-7] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-29 00:07:29 [http-nio-9090-exec-7] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-29 00:07:29 [http-nio-9090-exec-9] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 00:07:29 [http-nio-9090-exec-9] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 00:07:32 [http-nio-9090-exec-10] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-29 00:07:32 [http-nio-9090-exec-10] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-29 00:07:32 [http-nio-9090-exec-1] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 00:07:32 [http-nio-9090-exec-1] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 00:07:32 [http-nio-9090-exec-10] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-29 00:07:32 [http-nio-9090-exec-5] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-29 00:07:32 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-29 00:07:32 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-29 00:07:32 [http-nio-9090-exec-6] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 00:07:32 [http-nio-9090-exec-6] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 00:07:32 [http-nio-9090-exec-3] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 00:07:32 [http-nio-9090-exec-3] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 00:07:39 [http-nio-9090-exec-2] INFO  c.e.blog.controller.VoteController - voting start
-2022-07-29 00:07:39 [http-nio-9090-exec-2] WARN  c.e.blog.service.VoteServiceimpl - unvoting blog 1 by user 20
-2022-07-29 00:07:44 [http-nio-9090-exec-8] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-29 00:07:44 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-29 00:07:44 [http-nio-9090-exec-7] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 00:07:44 [http-nio-9090-exec-7] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 00:07:44 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-29 00:07:44 [http-nio-9090-exec-9] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-29 00:07:44 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-29 00:07:44 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-29 00:07:44 [http-nio-9090-exec-1] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 00:07:44 [http-nio-9090-exec-10] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 00:07:44 [http-nio-9090-exec-10] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 00:07:44 [http-nio-9090-exec-1] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 00:08:37 [http-nio-9090-exec-6] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-29 00:08:37 [http-nio-9090-exec-6] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-29 00:08:37 [http-nio-9090-exec-5] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 00:08:37 [http-nio-9090-exec-5] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 00:08:37 [http-nio-9090-exec-3] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-29 00:08:37 [http-nio-9090-exec-3] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-29 00:09:31 [http-nio-9090-exec-2] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-29 00:09:31 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-29 00:09:31 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-29 00:09:31 [http-nio-9090-exec-7] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-29 00:09:31 [http-nio-9090-exec-7] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-29 00:09:31 [http-nio-9090-exec-7] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-29 00:09:31 [http-nio-9090-exec-10] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 00:09:31 [http-nio-9090-exec-8] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 00:09:31 [http-nio-9090-exec-10] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 00:09:31 [http-nio-9090-exec-8] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 00:28:10 [http-nio-9090-exec-3] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-29 00:28:10 [http-nio-9090-exec-4] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 00:28:10 [http-nio-9090-exec-4] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 00:28:10 [http-nio-9090-exec-3] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-29 00:28:10 [http-nio-9090-exec-2] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-29 00:28:10 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-29 00:32:05 [http-nio-9090-exec-8] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-29 00:32:05 [http-nio-9090-exec-1] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 00:32:05 [http-nio-9090-exec-1] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 00:32:05 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-29 00:32:05 [http-nio-9090-exec-9] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-29 00:32:05 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-29 00:34:27 [http-nio-9090-exec-4] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-29 00:34:27 [http-nio-9090-exec-3] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 00:34:27 [http-nio-9090-exec-3] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 00:34:27 [http-nio-9090-exec-4] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-29 00:34:27 [http-nio-9090-exec-2] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-29 00:34:27 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-29 00:35:09 [http-nio-9090-exec-10] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-29 00:35:09 [http-nio-9090-exec-10] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-29 00:35:09 [http-nio-9090-exec-10] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-29 00:35:09 [http-nio-9090-exec-7] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-29 00:35:09 [http-nio-9090-exec-7] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-29 00:35:09 [http-nio-9090-exec-7] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-29 00:35:09 [http-nio-9090-exec-8] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 00:35:09 [http-nio-9090-exec-1] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 00:35:09 [http-nio-9090-exec-8] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 00:35:09 [http-nio-9090-exec-1] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 00:35:15 [http-nio-9090-exec-9] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-29 00:35:15 [http-nio-9090-exec-6] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 00:35:15 [http-nio-9090-exec-6] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 00:35:15 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-29 00:35:15 [http-nio-9090-exec-5] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-29 00:35:15 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-29 11:45:55 [restartedMain] INFO  c.e.blog.BlogWritingApplication - Starting BlogWritingApplication using Java 11.0.11 on DESKTOP-TQDLO7J with PID 17972 (C:\Users\Subhankar\Desktop\Project\BlogFactory\BlogFactory\blog\target\classes started by Subhankar in C:\Users\Subhankar\Desktop\Project\BlogFactory\BlogFactory\blog)
-2022-07-29 11:45:55 [restartedMain] INFO  c.e.blog.BlogWritingApplication - The following 1 profile is active: "dev"
-2022-07-29 11:46:04 [restartedMain] INFO  c.e.blog.BlogWritingApplication - Started BlogWritingApplication in 9.127 seconds (JVM running for 10.531)
-2022-07-29 11:47:02 [http-nio-9090-exec-3] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-29 11:47:02 [http-nio-9090-exec-1] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 11:47:02 [http-nio-9090-exec-1] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 11:47:03 [http-nio-9090-exec-3] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-29 11:47:03 [http-nio-9090-exec-4] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-29 11:47:03 [http-nio-9090-exec-4] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-29 11:49:37 [http-nio-9090-exec-5] INFO  c.e.blog.controller.UserController - image is uploaded with name C:\Users\Subhankar\Desktop\Project\BlogFactory\BlogFactory\blog\target\classes\static\image\User12@wallpaperflare.com_wallpaper.jpg
-2022-07-29 11:49:37 [http-nio-9090-exec-5] INFO  c.e.blog.controller.UserController - trying to signUp with credential User(id=0, name=new user, email=t@gmail.com, mobile=5342324352, userimg=User12@wallpaperflare.com_wallpaper.jpg, username=User12@, password=User123, blogs=[]) 
-2022-07-29 11:49:37 [http-nio-9090-exec-5] ERROR c.e.blog.service.UserServiceimpl - email already exist
-2022-07-29 11:49:46 [http-nio-9090-exec-7] INFO  c.e.blog.controller.UserController - image is uploaded with name C:\Users\Subhankar\Desktop\Project\BlogFactory\BlogFactory\blog\target\classes\static\image\User12@wallpaperflare.com_wallpaper.jpg
-2022-07-29 11:49:46 [http-nio-9090-exec-7] INFO  c.e.blog.controller.UserController - trying to signUp with credential User(id=0, name=new user, email=u@gmail.com, mobile=5342324352, userimg=User12@wallpaperflare.com_wallpaper.jpg, username=User12@, password=User123, blogs=[]) 
-2022-07-29 11:49:47 [http-nio-9090-exec-7] INFO  c.e.blog.service.UserServiceimpl - user registered successfully with credential User(id=21, name=new user, email=u@gmail.com, mobile=5342324352, userimg=User12@wallpaperflare.com_wallpaper.jpg, username=User12@, password=$2a$10$d.o6voDKxyNUsULd2KdUROkqUk4yw4TMOjqIVzFec0ELMcOQEk8Ya, blogs=[]) 
-2022-07-29 11:50:31 [http-nio-9090-exec-1] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-29 11:50:31 [http-nio-9090-exec-3] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 11:50:31 [http-nio-9090-exec-3] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 11:50:31 [http-nio-9090-exec-1] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-29 11:50:31 [http-nio-9090-exec-4] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-29 11:50:31 [http-nio-9090-exec-4] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-29 11:50:31 [http-nio-9090-exec-2] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 11:50:31 [http-nio-9090-exec-2] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 11:50:50 [http-nio-9090-exec-9] INFO  c.e.blog.controller.VoteController - voting start
-2022-07-29 11:50:50 [http-nio-9090-exec-9] INFO  c.e.blog.service.VoteServiceimpl - vote complete for user 21
-2022-07-29 11:50:55 [http-nio-9090-exec-3] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-29 11:50:55 [http-nio-9090-exec-1] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 11:50:55 [http-nio-9090-exec-1] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 11:50:55 [http-nio-9090-exec-3] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-29 11:50:55 [http-nio-9090-exec-2] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 11:50:55 [http-nio-9090-exec-4] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-29 11:50:55 [http-nio-9090-exec-2] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 11:50:55 [http-nio-9090-exec-4] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-29 11:50:58 [http-nio-9090-exec-6] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-29 11:50:58 [http-nio-9090-exec-6] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-29 11:50:58 [http-nio-9090-exec-7] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 11:50:58 [http-nio-9090-exec-7] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 11:50:58 [http-nio-9090-exec-6] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-29 11:50:58 [http-nio-9090-exec-5] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-29 11:50:58 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-29 11:50:58 [http-nio-9090-exec-10] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 11:50:58 [http-nio-9090-exec-10] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 11:50:58 [http-nio-9090-exec-9] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 11:50:58 [http-nio-9090-exec-9] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 11:50:58 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-29 11:54:12 [http-nio-9090-exec-3] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 11:54:12 [http-nio-9090-exec-3] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 11:55:58 [http-nio-9090-exec-7] INFO  c.e.blog.controller.BlogController - submitting blog from userid 21
-2022-07-29 11:55:58 [http-nio-9090-exec-7] INFO  c.e.blog.service.BlogServiceimpl - user saved in user's profile
-2022-07-29 11:56:02 [http-nio-9090-exec-6] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-29 11:56:02 [http-nio-9090-exec-6] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-29 11:56:02 [http-nio-9090-exec-9] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 11:56:02 [http-nio-9090-exec-9] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 11:56:02 [http-nio-9090-exec-6] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-29 11:56:02 [http-nio-9090-exec-10] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-29 11:56:02 [http-nio-9090-exec-10] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-29 11:56:02 [http-nio-9090-exec-5] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 11:56:02 [http-nio-9090-exec-8] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 11:56:02 [http-nio-9090-exec-1] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 11:56:02 [http-nio-9090-exec-8] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 11:56:02 [http-nio-9090-exec-5] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 11:56:02 [http-nio-9090-exec-1] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 11:56:02 [http-nio-9090-exec-10] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-29 11:56:06 [http-nio-9090-exec-3] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 11:56:06 [http-nio-9090-exec-3] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 11:56:11 [http-nio-9090-exec-4] INFO  c.e.blog.controller.VoteController - voting start
-2022-07-29 11:56:11 [http-nio-9090-exec-4] INFO  c.e.blog.service.VoteServiceimpl - vote complete for user 21
-2022-07-29 11:56:16 [http-nio-9090-exec-7] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-29 11:56:16 [http-nio-9090-exec-7] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-29 11:56:16 [http-nio-9090-exec-9] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 11:56:16 [http-nio-9090-exec-9] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 11:56:16 [http-nio-9090-exec-7] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-29 11:56:16 [http-nio-9090-exec-6] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-29 11:56:16 [http-nio-9090-exec-6] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-29 11:56:16 [http-nio-9090-exec-5] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 11:56:16 [http-nio-9090-exec-6] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-29 11:56:16 [http-nio-9090-exec-5] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 11:56:16 [http-nio-9090-exec-1] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 11:56:16 [http-nio-9090-exec-1] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 11:56:16 [http-nio-9090-exec-8] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 11:56:16 [http-nio-9090-exec-8] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 11:56:23 [http-nio-9090-exec-10] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-29 11:56:23 [http-nio-9090-exec-10] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-29 11:56:23 [http-nio-9090-exec-3] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 11:56:23 [http-nio-9090-exec-3] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 11:56:23 [http-nio-9090-exec-10] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-29 11:56:23 [http-nio-9090-exec-2] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-29 11:56:23 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-29 11:56:23 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-29 11:56:23 [http-nio-9090-exec-4] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 11:56:23 [http-nio-9090-exec-4] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 11:56:23 [http-nio-9090-exec-9] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 11:56:23 [http-nio-9090-exec-9] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 11:56:23 [http-nio-9090-exec-4] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 11:56:23 [http-nio-9090-exec-4] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 11:56:26 [http-nio-9090-exec-5] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 11:56:26 [http-nio-9090-exec-5] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 11:56:32 [http-nio-9090-exec-1] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 11:56:32 [http-nio-9090-exec-1] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 11:56:38 [http-nio-9090-exec-8] INFO  c.e.blog.controller.BlogController - Edit started for blog 14 by user 21
-2022-07-29 11:56:38 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - Last edited date of this blog was 29-07-2022
-2022-07-29 11:56:38 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - blog edited successfully on 29-07-2022
-2022-07-29 11:56:40 [http-nio-9090-exec-3] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-29 11:56:40 [http-nio-9090-exec-10] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 11:56:40 [http-nio-9090-exec-3] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-29 11:56:40 [http-nio-9090-exec-10] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 11:56:40 [http-nio-9090-exec-3] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-29 11:56:40 [http-nio-9090-exec-7] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-29 11:56:40 [http-nio-9090-exec-7] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-29 11:56:40 [http-nio-9090-exec-7] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-29 11:56:40 [http-nio-9090-exec-2] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 11:56:40 [http-nio-9090-exec-2] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 11:56:40 [http-nio-9090-exec-9] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 11:56:40 [http-nio-9090-exec-9] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 11:56:40 [http-nio-9090-exec-4] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 11:56:40 [http-nio-9090-exec-4] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 11:56:50 [http-nio-9090-exec-5] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 11:56:50 [http-nio-9090-exec-5] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 11:56:55 [http-nio-9090-exec-1] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-29 11:56:55 [http-nio-9090-exec-1] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-29 11:56:55 [http-nio-9090-exec-6] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 11:56:55 [http-nio-9090-exec-6] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 11:56:55 [http-nio-9090-exec-1] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-29 11:56:55 [http-nio-9090-exec-8] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-29 11:56:55 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-29 11:56:55 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-29 11:56:55 [http-nio-9090-exec-10] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 11:56:55 [http-nio-9090-exec-10] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 11:56:55 [http-nio-9090-exec-3] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 11:56:55 [http-nio-9090-exec-3] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 11:56:55 [http-nio-9090-exec-2] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 11:56:55 [http-nio-9090-exec-2] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 11:56:58 [http-nio-9090-exec-9] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 11:56:58 [http-nio-9090-exec-9] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 11:57:02 [http-nio-9090-exec-4] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 11:57:02 [http-nio-9090-exec-4] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 11:58:44 [http-nio-9090-exec-1] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 11:58:44 [http-nio-9090-exec-1] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 11:59:16 [http-nio-9090-exec-8] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 11:59:16 [http-nio-9090-exec-8] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 12:01:14 [http-nio-9090-exec-2] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:01:14 [http-nio-9090-exec-2] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 12:02:12 [http-nio-9090-exec-9] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:02:12 [http-nio-9090-exec-9] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 12:04:50 [http-nio-9090-exec-7] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:04:50 [http-nio-9090-exec-7] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 12:05:04 [http-nio-9090-exec-5] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-29 12:05:04 [http-nio-9090-exec-6] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:05:04 [http-nio-9090-exec-6] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 12:05:04 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-29 12:05:04 [http-nio-9090-exec-1] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-29 12:05:04 [http-nio-9090-exec-10] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:05:04 [http-nio-9090-exec-1] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-29 12:05:04 [http-nio-9090-exec-10] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 12:05:06 [http-nio-9090-exec-8] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:05:06 [http-nio-9090-exec-8] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 12:05:08 [http-nio-9090-exec-3] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:05:08 [http-nio-9090-exec-3] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 12:05:10 [http-nio-9090-exec-2] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:05:10 [http-nio-9090-exec-2] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 12:05:45 [http-nio-9090-exec-6] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:05:45 [http-nio-9090-exec-6] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 12:06:30 [http-nio-9090-exec-5] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:06:30 [http-nio-9090-exec-5] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 12:06:55 [http-nio-9090-exec-10] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:06:55 [http-nio-9090-exec-10] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 12:06:56 [http-nio-9090-exec-1] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:06:56 [http-nio-9090-exec-1] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 12:07:13 [http-nio-9090-exec-8] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:07:13 [http-nio-9090-exec-8] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 12:07:15 [http-nio-9090-exec-3] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:07:15 [http-nio-9090-exec-3] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 12:07:17 [http-nio-9090-exec-2] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:07:17 [http-nio-9090-exec-2] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 12:07:19 [http-nio-9090-exec-7] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-29 12:07:19 [http-nio-9090-exec-7] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-29 12:07:19 [http-nio-9090-exec-9] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:07:19 [http-nio-9090-exec-9] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 12:07:19 [http-nio-9090-exec-7] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-29 12:07:19 [http-nio-9090-exec-4] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-29 12:07:19 [http-nio-9090-exec-4] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-29 12:07:19 [http-nio-9090-exec-4] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-29 12:07:19 [http-nio-9090-exec-6] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:07:19 [http-nio-9090-exec-6] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 12:07:19 [http-nio-9090-exec-5] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:07:19 [http-nio-9090-exec-10] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:07:19 [http-nio-9090-exec-10] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 12:07:19 [http-nio-9090-exec-5] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 12:07:25 [http-nio-9090-exec-1] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:07:25 [http-nio-9090-exec-1] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 12:07:50 [http-nio-9090-exec-7] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-29 12:07:50 [http-nio-9090-exec-7] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-29 12:07:50 [http-nio-9090-exec-6] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:07:50 [http-nio-9090-exec-6] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 12:07:50 [http-nio-9090-exec-4] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-29 12:07:50 [http-nio-9090-exec-4] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-29 12:07:50 [http-nio-9090-exec-5] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:07:50 [http-nio-9090-exec-5] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 12:07:53 [http-nio-9090-exec-10] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:07:53 [http-nio-9090-exec-10] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 12:07:56 [http-nio-9090-exec-1] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:07:56 [http-nio-9090-exec-1] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 12:07:58 [http-nio-9090-exec-8] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:07:58 [http-nio-9090-exec-8] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 12:09:07 [http-nio-9090-exec-7] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:09:07 [http-nio-9090-exec-7] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 12:12:56 [http-nio-9090-exec-4] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:12:56 [http-nio-9090-exec-4] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 12:13:57 [http-nio-9090-exec-10] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-29 12:13:57 [http-nio-9090-exec-10] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-29 12:13:57 [http-nio-9090-exec-1] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:13:57 [http-nio-9090-exec-1] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 12:13:57 [http-nio-9090-exec-8] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-29 12:13:57 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-29 12:13:57 [http-nio-9090-exec-3] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:13:57 [http-nio-9090-exec-3] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 12:14:12 [http-nio-9090-exec-2] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-29 12:14:12 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-29 12:14:12 [http-nio-9090-exec-9] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:14:12 [http-nio-9090-exec-9] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 12:14:12 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-29 12:14:12 [http-nio-9090-exec-7] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-29 12:14:12 [http-nio-9090-exec-7] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-29 12:14:13 [http-nio-9090-exec-7] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-29 12:14:13 [http-nio-9090-exec-6] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:14:13 [http-nio-9090-exec-6] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 12:14:13 [http-nio-9090-exec-4] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:14:13 [http-nio-9090-exec-4] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 12:14:20 [http-nio-9090-exec-10] INFO  c.e.blog.controller.VoteController - voting start
-2022-07-29 12:14:20 [http-nio-9090-exec-10] WARN  c.e.blog.service.VoteServiceimpl - unvoting blog 2 by user 21
-2022-07-29 12:14:26 [http-nio-9090-exec-1] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-29 12:14:26 [http-nio-9090-exec-1] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-29 12:14:26 [http-nio-9090-exec-8] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:14:26 [http-nio-9090-exec-8] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 12:14:26 [http-nio-9090-exec-1] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-29 12:14:26 [http-nio-9090-exec-3] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-29 12:14:26 [http-nio-9090-exec-3] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-29 12:14:26 [http-nio-9090-exec-3] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-29 12:14:26 [http-nio-9090-exec-9] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:14:26 [http-nio-9090-exec-9] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 12:14:26 [http-nio-9090-exec-2] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:14:26 [http-nio-9090-exec-7] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:14:26 [http-nio-9090-exec-7] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 12:14:26 [http-nio-9090-exec-2] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 12:14:34 [http-nio-9090-exec-6] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-29 12:14:34 [http-nio-9090-exec-6] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-29 12:14:34 [http-nio-9090-exec-4] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:14:34 [http-nio-9090-exec-4] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 12:14:34 [http-nio-9090-exec-6] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-29 12:14:34 [http-nio-9090-exec-5] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-29 12:14:34 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-29 12:14:34 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-29 12:14:34 [http-nio-9090-exec-10] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:14:34 [http-nio-9090-exec-10] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 12:14:34 [http-nio-9090-exec-8] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:14:34 [http-nio-9090-exec-1] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:14:34 [http-nio-9090-exec-8] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 12:14:34 [http-nio-9090-exec-1] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 12:14:38 [http-nio-9090-exec-9] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-29 12:14:38 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-29 12:14:38 [http-nio-9090-exec-2] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:14:38 [http-nio-9090-exec-2] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 12:14:38 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-29 12:14:38 [http-nio-9090-exec-7] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-29 12:14:38 [http-nio-9090-exec-7] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-29 12:14:38 [http-nio-9090-exec-3] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:14:38 [http-nio-9090-exec-7] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-29 12:14:38 [http-nio-9090-exec-3] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 12:14:38 [http-nio-9090-exec-4] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:14:38 [http-nio-9090-exec-6] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:14:38 [http-nio-9090-exec-4] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 12:14:38 [http-nio-9090-exec-6] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 12:14:40 [http-nio-9090-exec-10] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:14:40 [http-nio-9090-exec-10] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 12:14:49 [http-nio-9090-exec-5] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-29 12:14:49 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-29 12:14:49 [http-nio-9090-exec-1] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:14:49 [http-nio-9090-exec-1] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 12:14:49 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-29 12:14:49 [http-nio-9090-exec-8] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-29 12:14:49 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-29 12:14:49 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-29 12:14:49 [http-nio-9090-exec-2] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:14:49 [http-nio-9090-exec-2] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 12:14:49 [http-nio-9090-exec-9] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:14:49 [http-nio-9090-exec-9] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 12:15:09 [http-nio-9090-exec-3] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:15:09 [http-nio-9090-exec-6] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:15:09 [http-nio-9090-exec-6] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 12:15:09 [http-nio-9090-exec-3] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 12:15:10 [http-nio-9090-exec-4] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:15:10 [http-nio-9090-exec-7] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:15:10 [http-nio-9090-exec-7] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 12:15:10 [http-nio-9090-exec-4] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 12:15:15 [http-nio-9090-exec-10] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:15:15 [http-nio-9090-exec-1] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:15:15 [http-nio-9090-exec-1] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 12:15:15 [http-nio-9090-exec-10] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 12:15:16 [http-nio-9090-exec-5] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:15:16 [http-nio-9090-exec-5] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 12:15:16 [http-nio-9090-exec-2] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:15:16 [http-nio-9090-exec-2] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 12:15:16 [http-nio-9090-exec-9] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:15:16 [http-nio-9090-exec-8] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:15:16 [http-nio-9090-exec-8] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 12:15:16 [http-nio-9090-exec-9] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 12:15:16 [http-nio-9090-exec-3] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:15:16 [http-nio-9090-exec-3] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 12:15:17 [http-nio-9090-exec-6] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:15:17 [http-nio-9090-exec-6] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 12:15:18 [http-nio-9090-exec-4] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:15:18 [http-nio-9090-exec-4] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 12:15:20 [http-nio-9090-exec-7] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:15:20 [http-nio-9090-exec-7] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 12:15:20 [http-nio-9090-exec-10] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:15:20 [http-nio-9090-exec-10] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 12:15:20 [http-nio-9090-exec-5] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:15:20 [http-nio-9090-exec-1] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:15:20 [http-nio-9090-exec-5] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 12:15:20 [http-nio-9090-exec-1] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 12:15:22 [http-nio-9090-exec-2] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:15:22 [http-nio-9090-exec-2] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 12:15:26 [http-nio-9090-exec-9] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:15:26 [http-nio-9090-exec-9] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 12:15:26 [http-nio-9090-exec-8] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:15:26 [http-nio-9090-exec-8] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 12:15:26 [http-nio-9090-exec-3] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:15:26 [http-nio-9090-exec-3] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 12:15:26 [http-nio-9090-exec-6] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:15:26 [http-nio-9090-exec-6] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 12:15:37 [http-nio-9090-exec-4] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-29 12:15:37 [http-nio-9090-exec-4] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-29 12:15:37 [http-nio-9090-exec-7] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:15:37 [http-nio-9090-exec-7] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 12:15:37 [http-nio-9090-exec-10] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-29 12:15:37 [http-nio-9090-exec-10] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-29 12:15:37 [http-nio-9090-exec-1] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:15:37 [http-nio-9090-exec-1] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 12:17:03 [http-nio-9090-exec-8] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:17:03 [http-nio-9090-exec-8] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 12:19:31 [http-nio-9090-exec-6] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-29 12:19:31 [http-nio-9090-exec-4] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:19:31 [http-nio-9090-exec-4] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 12:19:31 [http-nio-9090-exec-6] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-29 12:19:31 [http-nio-9090-exec-7] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-29 12:19:31 [http-nio-9090-exec-7] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-29 12:19:31 [http-nio-9090-exec-10] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:19:31 [http-nio-9090-exec-10] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 12:23:20 [http-nio-9090-exec-9] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-29 12:23:20 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-29 12:23:29 [http-nio-9090-exec-8] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-29 12:23:29 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-29 12:23:31 [http-nio-9090-exec-3] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-29 12:23:31 [http-nio-9090-exec-3] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-29 12:23:36 [http-nio-9090-exec-4] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-29 12:23:36 [http-nio-9090-exec-4] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-29 12:23:42 [http-nio-9090-exec-6] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-29 12:23:42 [http-nio-9090-exec-6] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-29 12:24:07 [http-nio-9090-exec-7] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-29 12:24:07 [http-nio-9090-exec-7] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-29 12:24:28 [http-nio-9090-exec-10] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-29 12:24:28 [http-nio-9090-exec-10] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-29 12:24:30 [http-nio-9090-exec-1] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-29 12:24:30 [http-nio-9090-exec-1] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-29 12:24:47 [http-nio-9090-exec-2] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-29 12:24:47 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-29 12:24:47 [http-nio-9090-exec-5] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:24:47 [http-nio-9090-exec-5] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 12:24:47 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-29 12:24:47 [http-nio-9090-exec-9] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-29 12:24:47 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-29 12:24:47 [http-nio-9090-exec-8] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:24:47 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-29 12:24:47 [http-nio-9090-exec-8] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 12:24:47 [http-nio-9090-exec-3] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:24:47 [http-nio-9090-exec-3] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 12:24:47 [http-nio-9090-exec-4] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:24:47 [http-nio-9090-exec-4] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 12:26:58 [http-nio-9090-exec-5] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-29 12:26:58 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-29 12:26:58 [http-nio-9090-exec-2] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:26:58 [http-nio-9090-exec-2] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 12:26:58 [http-nio-9090-exec-8] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-29 12:26:58 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-29 12:28:26 [http-nio-9090-exec-4] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-29 12:28:26 [http-nio-9090-exec-4] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-29 12:28:26 [http-nio-9090-exec-9] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:28:26 [http-nio-9090-exec-9] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 12:28:26 [http-nio-9090-exec-6] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-29 12:28:26 [http-nio-9090-exec-6] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-29 12:29:48 [http-nio-9090-exec-10] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-29 12:29:48 [http-nio-9090-exec-10] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-29 12:29:48 [http-nio-9090-exec-10] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-29 12:29:48 [http-nio-9090-exec-1] INFO  c.e.blog.controller.BlogController - request for all blogs
-2022-07-29 12:29:48 [http-nio-9090-exec-1] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
-2022-07-29 12:29:48 [http-nio-9090-exec-1] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
-2022-07-29 12:29:48 [http-nio-9090-exec-5] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:29:48 [http-nio-9090-exec-2] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:29:48 [http-nio-9090-exec-5] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 12:29:48 [http-nio-9090-exec-2] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 12:29:48 [http-nio-9090-exec-8] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:29:48 [http-nio-9090-exec-8] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 12:32:46 [restartedMain] INFO  c.e.blog.BlogWritingApplication - Starting BlogWritingApplication using Java 11.0.11 on DESKTOP-TQDLO7J with PID 14296 (C:\Users\Subhankar\Desktop\Project\BlogFactory\BlogFactory\blog\target\classes started by Subhankar in C:\Users\Subhankar\Desktop\Project\BlogFactory\BlogFactory\blog)
-2022-07-29 12:32:46 [restartedMain] INFO  c.e.blog.BlogWritingApplication - The following 1 profile is active: "dev"
-2022-07-29 12:32:59 [restartedMain] INFO  c.e.blog.BlogWritingApplication - Started BlogWritingApplication in 14.349 seconds (JVM running for 15.92)
-2022-07-29 12:33:14 [http-nio-9090-exec-2] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-29 12:33:14 [http-nio-9090-exec-1] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:33:14 [http-nio-9090-exec-1] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 12:33:14 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-29 12:33:15 [http-nio-9090-exec-3] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-29 12:33:15 [http-nio-9090-exec-3] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-29 12:33:47 [http-nio-9090-exec-1] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-29 12:33:47 [http-nio-9090-exec-1] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-29 12:33:47 [http-nio-9090-exec-2] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:33:47 [http-nio-9090-exec-2] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 12:33:47 [http-nio-9090-exec-3] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-29 12:33:47 [http-nio-9090-exec-3] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-29 12:33:47 [http-nio-9090-exec-4] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:33:47 [http-nio-9090-exec-4] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 12:34:29 [http-nio-9090-exec-7] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:34:29 [http-nio-9090-exec-7] INFO  c.e.blog.controller.UserController - picture served
-2022-07-29 12:36:53 [http-nio-9090-exec-9] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-29 12:36:53 [http-nio-9090-exec-10] INFO  c.e.blog.service.UserServiceimpl - serving picture
-2022-07-29 12:36:53 [http-nio-9090-exec-10] ERROR c.e.blog.service.UserServiceimpl - picture not found
-2022-07-29 12:36:53 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
-2022-07-29 12:36:53 [http-nio-9090-exec-1] INFO  c.e.blog.controller.BlogController - getting blog of the day
-2022-07-29 12:36:53 [http-nio-9090-exec-1] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
+2022-08-03 12:35:18 [restartedMain] INFO  c.e.blog.BlogWritingApplication - Starting BlogWritingApplication using Java 11.0.11 on DESKTOP-TQDLO7J with PID 16916 (C:\Users\Subhankar\Desktop\Project\BlogFactory\BlogFactory\blog\target\classes started by Subhankar in C:\Users\Subhankar\Desktop\Project\BlogFactory\BlogFactory\blog)
+2022-08-03 12:35:18 [restartedMain] INFO  c.e.blog.BlogWritingApplication - The following 1 profile is active: "dev"
+2022-08-03 12:35:26 [restartedMain] INFO  c.e.blog.BlogWritingApplication - Started BlogWritingApplication in 8.624 seconds (JVM running for 10.003)
+2022-08-03 13:01:40 [main] INFO  c.e.blog.repository.UserRepoTest - Starting UserRepoTest using Java 11.0.11 on DESKTOP-TQDLO7J with PID 12848 (started by Subhankar in C:\Users\Subhankar\Desktop\Project\BlogFactory\BlogFactory\blog)
+2022-08-03 13:01:40 [main] INFO  c.e.blog.repository.UserRepoTest - No active profile set, falling back to 1 default profile: "default"
+2022-08-03 13:01:44 [main] INFO  c.e.blog.repository.UserRepoTest - Started UserRepoTest in 4.76 seconds (JVM running for 6.538)
+2022-08-03 13:05:27 [main] INFO  c.e.blog.repository.UserRepoTest - Starting UserRepoTest using Java 11.0.11 on DESKTOP-TQDLO7J with PID 2964 (started by Subhankar in C:\Users\Subhankar\Desktop\Project\BlogFactory\BlogFactory\blog)
+2022-08-03 13:05:27 [main] INFO  c.e.blog.repository.UserRepoTest - No active profile set, falling back to 1 default profile: "default"
+2022-08-03 13:05:30 [main] INFO  c.e.blog.repository.UserRepoTest - Started UserRepoTest in 4.007 seconds (JVM running for 5.639)
+2022-08-03 13:10:05 [main] INFO  c.e.blog.repository.UserRepoTest - Starting UserRepoTest using Java 11.0.11 on DESKTOP-TQDLO7J with PID 9404 (started by Subhankar in C:\Users\Subhankar\Desktop\Project\BlogFactory\BlogFactory\blog)
+2022-08-03 13:10:05 [main] INFO  c.e.blog.repository.UserRepoTest - No active profile set, falling back to 1 default profile: "default"
+2022-08-03 13:10:09 [main] INFO  c.e.blog.repository.UserRepoTest - Started UserRepoTest in 3.852 seconds (JVM running for 5.467)
+2022-08-03 13:11:08 [main] INFO  c.e.blog.repository.UserRepoTest - Starting UserRepoTest using Java 11.0.11 on DESKTOP-TQDLO7J with PID 11568 (started by Subhankar in C:\Users\Subhankar\Desktop\Project\BlogFactory\BlogFactory\blog)
+2022-08-03 13:11:08 [main] INFO  c.e.blog.repository.UserRepoTest - No active profile set, falling back to 1 default profile: "default"
+2022-08-03 13:11:11 [main] INFO  c.e.blog.repository.UserRepoTest - Started UserRepoTest in 4.001 seconds (JVM running for 5.566)
+2022-08-03 13:12:05 [main] INFO  c.e.blog.repository.UserRepoTest - Starting UserRepoTest using Java 11.0.11 on DESKTOP-TQDLO7J with PID 16492 (started by Subhankar in C:\Users\Subhankar\Desktop\Project\BlogFactory\BlogFactory\blog)
+2022-08-03 13:12:05 [main] INFO  c.e.blog.repository.UserRepoTest - No active profile set, falling back to 1 default profile: "default"
+2022-08-03 13:12:09 [main] INFO  c.e.blog.repository.UserRepoTest - Started UserRepoTest in 4.05 seconds (JVM running for 5.605)
+2022-08-03 13:14:26 [main] INFO  c.e.blog.repository.UserRepoTest - Starting UserRepoTest using Java 11.0.11 on DESKTOP-TQDLO7J with PID 16780 (started by Subhankar in C:\Users\Subhankar\Desktop\Project\BlogFactory\BlogFactory\blog)
+2022-08-03 13:14:26 [main] INFO  c.e.blog.repository.UserRepoTest - No active profile set, falling back to 1 default profile: "default"
+2022-08-03 13:14:30 [main] INFO  c.e.blog.repository.UserRepoTest - Started UserRepoTest in 4.02 seconds (JVM running for 5.582)
+2022-08-03 13:15:50 [main] INFO  c.e.blog.repository.UserRepoTest - Starting UserRepoTest using Java 11.0.11 on DESKTOP-TQDLO7J with PID 7732 (started by Subhankar in C:\Users\Subhankar\Desktop\Project\BlogFactory\BlogFactory\blog)
+2022-08-03 13:15:50 [main] INFO  c.e.blog.repository.UserRepoTest - No active profile set, falling back to 1 default profile: "default"
+2022-08-03 13:15:53 [main] INFO  c.e.blog.repository.UserRepoTest - Started UserRepoTest in 4.008 seconds (JVM running for 5.56)
+2022-08-03 13:17:43 [main] INFO  c.e.blog.repository.UserRepoTest - Starting UserRepoTest using Java 11.0.11 on DESKTOP-TQDLO7J with PID 888 (started by Subhankar in C:\Users\Subhankar\Desktop\Project\BlogFactory\BlogFactory\blog)
+2022-08-03 13:17:43 [main] INFO  c.e.blog.repository.UserRepoTest - No active profile set, falling back to 1 default profile: "default"
+2022-08-03 13:17:46 [main] INFO  c.e.blog.repository.UserRepoTest - Started UserRepoTest in 4.054 seconds (JVM running for 5.61)
+2022-08-03 13:17:54 [main] INFO  c.e.blog.repository.UserRepoTest - Starting UserRepoTest using Java 11.0.11 on DESKTOP-TQDLO7J with PID 9060 (started by Subhankar in C:\Users\Subhankar\Desktop\Project\BlogFactory\BlogFactory\blog)
+2022-08-03 13:17:54 [main] INFO  c.e.blog.repository.UserRepoTest - No active profile set, falling back to 1 default profile: "default"
+2022-08-03 13:17:58 [main] INFO  c.e.blog.repository.UserRepoTest - Started UserRepoTest in 4.212 seconds (JVM running for 5.895)
+2022-08-03 13:23:15 [main] INFO  c.e.blog.repository.UserRepoTest - Starting UserRepoTest using Java 11.0.11 on DESKTOP-TQDLO7J with PID 8472 (started by Subhankar in C:\Users\Subhankar\Desktop\Project\BlogFactory\BlogFactory\blog)
+2022-08-03 13:23:15 [main] INFO  c.e.blog.repository.UserRepoTest - No active profile set, falling back to 1 default profile: "default"
+2022-08-03 13:23:19 [main] INFO  c.e.blog.repository.UserRepoTest - Started UserRepoTest in 4.171 seconds (JVM running for 5.707)
+2022-08-03 13:24:09 [main] INFO  c.e.blog.repository.UserRepoTest - Starting UserRepoTest using Java 11.0.11 on DESKTOP-TQDLO7J with PID 6408 (started by Subhankar in C:\Users\Subhankar\Desktop\Project\BlogFactory\BlogFactory\blog)
+2022-08-03 13:24:09 [main] INFO  c.e.blog.repository.UserRepoTest - No active profile set, falling back to 1 default profile: "default"
+2022-08-03 13:24:12 [main] INFO  c.e.blog.repository.UserRepoTest - Started UserRepoTest in 4.088 seconds (JVM running for 5.632)
+2022-08-03 13:26:02 [main] INFO  c.e.blog.repository.UserRepoTest - Starting UserRepoTest using Java 11.0.11 on DESKTOP-TQDLO7J with PID 772 (started by Subhankar in C:\Users\Subhankar\Desktop\Project\BlogFactory\BlogFactory\blog)
+2022-08-03 13:26:02 [main] INFO  c.e.blog.repository.UserRepoTest - No active profile set, falling back to 1 default profile: "default"
+2022-08-03 13:26:05 [main] INFO  c.e.blog.repository.UserRepoTest - Started UserRepoTest in 3.997 seconds (JVM running for 5.524)
+2022-08-03 13:27:12 [main] INFO  c.e.blog.repository.UserRepoTest - Starting UserRepoTest using Java 11.0.11 on DESKTOP-TQDLO7J with PID 15020 (started by Subhankar in C:\Users\Subhankar\Desktop\Project\BlogFactory\BlogFactory\blog)
+2022-08-03 13:27:12 [main] INFO  c.e.blog.repository.UserRepoTest - No active profile set, falling back to 1 default profile: "default"
+2022-08-03 13:27:16 [main] INFO  c.e.blog.repository.UserRepoTest - Started UserRepoTest in 3.779 seconds (JVM running for 5.298)
+2022-08-03 13:27:35 [main] INFO  c.e.blog.repository.UserRepoTest - Starting UserRepoTest using Java 11.0.11 on DESKTOP-TQDLO7J with PID 11560 (started by Subhankar in C:\Users\Subhankar\Desktop\Project\BlogFactory\BlogFactory\blog)
+2022-08-03 13:27:35 [main] INFO  c.e.blog.repository.UserRepoTest - No active profile set, falling back to 1 default profile: "default"
+2022-08-03 13:27:39 [main] INFO  c.e.blog.repository.UserRepoTest - Started UserRepoTest in 3.919 seconds (JVM running for 5.424)
+2022-08-03 13:27:46 [main] INFO  c.e.blog.repository.UserRepoTest - Starting UserRepoTest using Java 11.0.11 on DESKTOP-TQDLO7J with PID 11176 (started by Subhankar in C:\Users\Subhankar\Desktop\Project\BlogFactory\BlogFactory\blog)
+2022-08-03 13:27:46 [main] INFO  c.e.blog.repository.UserRepoTest - No active profile set, falling back to 1 default profile: "default"
+2022-08-03 13:27:50 [main] INFO  c.e.blog.repository.UserRepoTest - Started UserRepoTest in 4.237 seconds (JVM running for 5.911)
+2022-08-03 13:28:20 [main] INFO  c.e.blog.repository.UserRepoTest - Starting UserRepoTest using Java 11.0.11 on DESKTOP-TQDLO7J with PID 9032 (started by Subhankar in C:\Users\Subhankar\Desktop\Project\BlogFactory\BlogFactory\blog)
+2022-08-03 13:28:20 [main] INFO  c.e.blog.repository.UserRepoTest - No active profile set, falling back to 1 default profile: "default"
+2022-08-03 13:28:23 [main] INFO  c.e.blog.repository.UserRepoTest - Started UserRepoTest in 4.12 seconds (JVM running for 5.713)
+2022-08-03 13:28:49 [main] INFO  c.e.blog.repository.UserRepoTest - Starting UserRepoTest using Java 11.0.11 on DESKTOP-TQDLO7J with PID 14704 (started by Subhankar in C:\Users\Subhankar\Desktop\Project\BlogFactory\BlogFactory\blog)
+2022-08-03 13:28:49 [main] INFO  c.e.blog.repository.UserRepoTest - No active profile set, falling back to 1 default profile: "default"
+2022-08-03 13:28:53 [main] INFO  c.e.blog.repository.UserRepoTest - Started UserRepoTest in 3.948 seconds (JVM running for 5.47)
+2022-08-03 13:29:01 [main] INFO  c.e.blog.repository.UserRepoTest - Starting UserRepoTest using Java 11.0.11 on DESKTOP-TQDLO7J with PID 872 (started by Subhankar in C:\Users\Subhankar\Desktop\Project\BlogFactory\BlogFactory\blog)
+2022-08-03 13:29:01 [main] INFO  c.e.blog.repository.UserRepoTest - No active profile set, falling back to 1 default profile: "default"
+2022-08-03 13:29:04 [main] INFO  c.e.blog.repository.UserRepoTest - Started UserRepoTest in 4.219 seconds (JVM running for 5.851)
+2022-08-03 14:16:33 [restartedMain] INFO  c.e.blog.BlogWritingApplication - Starting BlogWritingApplication using Java 11.0.11 on DESKTOP-TQDLO7J with PID 1708 (C:\Users\Subhankar\Desktop\Project\BlogFactory\BlogFactory\blog\target\classes started by Subhankar in C:\Users\Subhankar\Desktop\Project\BlogFactory\BlogFactory\blog)
+2022-08-03 14:16:33 [restartedMain] INFO  c.e.blog.BlogWritingApplication - The following 1 profile is active: "dev"
+2022-08-03 14:18:36 [restartedMain] INFO  c.e.blog.BlogWritingApplication - Starting BlogWritingApplication using Java 11.0.11 on DESKTOP-TQDLO7J with PID 10460 (C:\Users\Subhankar\Desktop\Project\BlogFactory\BlogFactory\blog\target\classes started by Subhankar in C:\Users\Subhankar\Desktop\Project\BlogFactory\BlogFactory\blog)
+2022-08-03 14:18:36 [restartedMain] INFO  c.e.blog.BlogWritingApplication - The following 1 profile is active: "dev"
+2022-08-03 14:21:49 [restartedMain] INFO  c.e.blog.BlogWritingApplication - Starting BlogWritingApplication using Java 11.0.11 on DESKTOP-TQDLO7J with PID 15400 (C:\Users\Subhankar\Desktop\Project\BlogFactory\BlogFactory\blog\target\classes started by Subhankar in C:\Users\Subhankar\Desktop\Project\BlogFactory\BlogFactory\blog)
+2022-08-03 14:21:49 [restartedMain] INFO  c.e.blog.BlogWritingApplication - The following 1 profile is active: "dev"
+2022-08-03 14:25:12 [restartedMain] INFO  c.e.blog.BlogWritingApplication - Starting BlogWritingApplication using Java 11.0.11 on DESKTOP-TQDLO7J with PID 1148 (C:\Users\Subhankar\Desktop\Project\BlogFactory\BlogFactory\blog\target\classes started by Subhankar in C:\Users\Subhankar\Desktop\Project\BlogFactory\BlogFactory\blog)
+2022-08-03 14:25:12 [restartedMain] INFO  c.e.blog.BlogWritingApplication - The following 1 profile is active: "dev"
+2022-08-03 14:26:49 [restartedMain] INFO  c.e.blog.BlogWritingApplication - Starting BlogWritingApplication using Java 11.0.11 on DESKTOP-TQDLO7J with PID 12440 (C:\Users\Subhankar\Desktop\Project\BlogFactory\BlogFactory\blog\target\classes started by Subhankar in C:\Users\Subhankar\Desktop\Project\BlogFactory\BlogFactory\blog)
+2022-08-03 14:26:49 [restartedMain] INFO  c.e.blog.BlogWritingApplication - The following 1 profile is active: "dev"
+2022-08-03 14:26:57 [restartedMain] INFO  c.e.blog.BlogWritingApplication - Started BlogWritingApplication in 8.438 seconds (JVM running for 9.459)
+2022-08-03 14:28:36 [http-nio-9090-exec-1] INFO  c.e.blog.controller.BlogController - getting blog of the day
+2022-08-03 14:28:36 [http-nio-9090-exec-2] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-08-03 14:28:36 [http-nio-9090-exec-2] ERROR c.e.blog.service.UserServiceimpl - picture not found
+2022-08-03 14:28:36 [http-nio-9090-exec-1] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
+2022-08-03 14:28:37 [http-nio-9090-exec-3] INFO  c.e.blog.controller.BlogController - getting blog of the day
+2022-08-03 14:28:37 [http-nio-9090-exec-3] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
+2022-08-03 14:29:44 [http-nio-9090-exec-8] INFO  c.e.blog.controller.BlogController - getting blog of the day
+2022-08-03 14:29:44 [http-nio-9090-exec-9] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-08-03 14:29:44 [http-nio-9090-exec-9] ERROR c.e.blog.service.UserServiceimpl - picture not found
+2022-08-03 14:29:44 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
+2022-08-03 14:29:44 [http-nio-9090-exec-10] INFO  c.e.blog.controller.BlogController - getting blog of the day
+2022-08-03 14:29:44 [http-nio-9090-exec-10] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
+2022-08-03 14:29:44 [http-nio-9090-exec-2] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-08-03 14:29:44 [http-nio-9090-exec-2] ERROR c.e.blog.service.UserServiceimpl - picture not found
+2022-08-03 14:29:49 [http-nio-9090-exec-1] INFO  c.e.blog.controller.BlogController - request for all blogs
+2022-08-03 14:29:49 [http-nio-9090-exec-1] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
+2022-08-03 14:29:49 [http-nio-9090-exec-3] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-08-03 14:29:49 [http-nio-9090-exec-3] ERROR c.e.blog.service.UserServiceimpl - picture not found
+2022-08-03 14:29:49 [http-nio-9090-exec-1] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
+2022-08-03 14:29:49 [http-nio-9090-exec-4] INFO  c.e.blog.controller.BlogController - request for all blogs
+2022-08-03 14:29:49 [http-nio-9090-exec-4] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
+2022-08-03 14:29:49 [http-nio-9090-exec-5] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-08-03 14:29:49 [http-nio-9090-exec-6] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-08-03 14:29:49 [http-nio-9090-exec-5] ERROR c.e.blog.service.UserServiceimpl - picture not found
+2022-08-03 14:29:49 [http-nio-9090-exec-6] ERROR c.e.blog.service.UserServiceimpl - picture not found
+2022-08-03 14:29:49 [http-nio-9090-exec-7] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-08-03 14:29:49 [http-nio-9090-exec-7] ERROR c.e.blog.service.UserServiceimpl - picture not found
+2022-08-03 14:29:49 [http-nio-9090-exec-4] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
+2022-08-03 14:30:03 [http-nio-9090-exec-8] INFO  c.e.blog.controller.VoteController - voting start
+2022-08-03 14:30:03 [http-nio-9090-exec-8] INFO  c.e.blog.service.VoteServiceimpl - vote complete for user 20
+2022-08-03 14:30:10 [http-nio-9090-exec-10] INFO  c.e.blog.controller.BlogController - request for all blogs
+2022-08-03 14:30:10 [http-nio-9090-exec-10] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
+2022-08-03 14:30:10 [http-nio-9090-exec-2] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-08-03 14:30:10 [http-nio-9090-exec-2] ERROR c.e.blog.service.UserServiceimpl - picture not found
+2022-08-03 14:30:10 [http-nio-9090-exec-10] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
+2022-08-03 14:30:10 [http-nio-9090-exec-3] INFO  c.e.blog.controller.BlogController - request for all blogs
+2022-08-03 14:30:10 [http-nio-9090-exec-3] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
+2022-08-03 14:30:11 [http-nio-9090-exec-1] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-08-03 14:30:11 [http-nio-9090-exec-5] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-08-03 14:30:11 [http-nio-9090-exec-1] ERROR c.e.blog.service.UserServiceimpl - picture not found
+2022-08-03 14:30:11 [http-nio-9090-exec-5] ERROR c.e.blog.service.UserServiceimpl - picture not found
+2022-08-03 14:30:11 [http-nio-9090-exec-6] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-08-03 14:30:11 [http-nio-9090-exec-6] ERROR c.e.blog.service.UserServiceimpl - picture not found
+2022-08-03 14:30:11 [http-nio-9090-exec-3] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
+2022-08-03 14:30:17 [http-nio-9090-exec-4] INFO  c.e.blog.controller.VoteController - voting start
+2022-08-03 14:30:17 [http-nio-9090-exec-4] WARN  c.e.blog.service.VoteServiceimpl - unvoting blog 4 by user 20
+2022-08-03 14:30:21 [http-nio-9090-exec-9] INFO  c.e.blog.controller.BlogController - request for all blogs
+2022-08-03 14:30:21 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
+2022-08-03 14:30:21 [http-nio-9090-exec-8] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-08-03 14:30:21 [http-nio-9090-exec-8] ERROR c.e.blog.service.UserServiceimpl - picture not found
+2022-08-03 14:30:21 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
+2022-08-03 14:30:21 [http-nio-9090-exec-2] INFO  c.e.blog.controller.BlogController - request for all blogs
+2022-08-03 14:30:21 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
+2022-08-03 14:30:21 [http-nio-9090-exec-2] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
+2022-08-03 14:30:21 [http-nio-9090-exec-1] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-08-03 14:30:21 [http-nio-9090-exec-5] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-08-03 14:30:21 [http-nio-9090-exec-1] ERROR c.e.blog.service.UserServiceimpl - picture not found
+2022-08-03 14:30:21 [http-nio-9090-exec-5] ERROR c.e.blog.service.UserServiceimpl - picture not found
+2022-08-03 14:30:21 [http-nio-9090-exec-10] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-08-03 14:30:21 [http-nio-9090-exec-10] ERROR c.e.blog.service.UserServiceimpl - picture not found
+2022-08-03 14:30:24 [http-nio-9090-exec-6] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-08-03 14:30:24 [http-nio-9090-exec-6] ERROR c.e.blog.service.UserServiceimpl - picture not found
+2022-08-03 14:30:28 [http-nio-9090-exec-7] INFO  c.e.blog.controller.VoteController - voting start
+2022-08-03 14:30:28 [http-nio-9090-exec-7] INFO  c.e.blog.service.VoteServiceimpl - vote complete for user 20
+2022-08-03 14:30:32 [http-nio-9090-exec-4] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-08-03 14:30:32 [http-nio-9090-exec-4] ERROR c.e.blog.service.UserServiceimpl - picture not found
+2022-08-03 14:30:36 [http-nio-9090-exec-9] INFO  c.e.blog.controller.BlogController - Edit started for blog 13 by user 20
+2022-08-03 14:30:36 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - Last edited date of this blog was 29-07-2022
+2022-08-03 14:30:36 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - blog edited successfully on 03-08-2022
+2022-08-03 14:30:39 [http-nio-9090-exec-5] INFO  c.e.blog.controller.BlogController - request for all blogs
+2022-08-03 14:30:39 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
+2022-08-03 14:30:39 [http-nio-9090-exec-1] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-08-03 14:30:39 [http-nio-9090-exec-1] ERROR c.e.blog.service.UserServiceimpl - picture not found
+2022-08-03 14:30:39 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
+2022-08-03 14:30:39 [http-nio-9090-exec-10] INFO  c.e.blog.controller.BlogController - request for all blogs
+2022-08-03 14:30:39 [http-nio-9090-exec-10] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
+2022-08-03 14:30:39 [http-nio-9090-exec-10] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
+2022-08-03 14:30:39 [http-nio-9090-exec-6] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-08-03 14:30:39 [http-nio-9090-exec-2] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-08-03 14:30:39 [http-nio-9090-exec-6] ERROR c.e.blog.service.UserServiceimpl - picture not found
+2022-08-03 14:30:39 [http-nio-9090-exec-2] ERROR c.e.blog.service.UserServiceimpl - picture not found
+2022-08-03 14:30:39 [http-nio-9090-exec-3] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-08-03 14:30:39 [http-nio-9090-exec-3] ERROR c.e.blog.service.UserServiceimpl - picture not found
+2022-08-03 14:30:43 [http-nio-9090-exec-7] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-08-03 14:30:43 [http-nio-9090-exec-7] ERROR c.e.blog.service.UserServiceimpl - picture not found
+2022-08-03 14:30:52 [http-nio-9090-exec-8] INFO  c.e.blog.controller.VoteController - voting start
+2022-08-03 14:30:52 [http-nio-9090-exec-8] WARN  c.e.blog.service.VoteServiceimpl - unvoting blog 13 by user 20
+2022-08-03 14:30:57 [http-nio-9090-exec-9] INFO  c.e.blog.controller.BlogController - request for all blogs
+2022-08-03 14:30:57 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
+2022-08-03 14:30:57 [http-nio-9090-exec-1] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-08-03 14:30:57 [http-nio-9090-exec-1] ERROR c.e.blog.service.UserServiceimpl - picture not found
+2022-08-03 14:30:57 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
+2022-08-03 14:30:57 [http-nio-9090-exec-5] INFO  c.e.blog.controller.BlogController - request for all blogs
+2022-08-03 14:30:57 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
+2022-08-03 14:30:57 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
+2022-08-03 14:30:57 [http-nio-9090-exec-3] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-08-03 14:30:57 [http-nio-9090-exec-3] ERROR c.e.blog.service.UserServiceimpl - picture not found
+2022-08-03 14:30:57 [http-nio-9090-exec-2] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-08-03 14:30:57 [http-nio-9090-exec-6] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-08-03 14:30:57 [http-nio-9090-exec-2] ERROR c.e.blog.service.UserServiceimpl - picture not found
+2022-08-03 14:30:57 [http-nio-9090-exec-6] ERROR c.e.blog.service.UserServiceimpl - picture not found
+2022-08-03 14:31:03 [http-nio-9090-exec-10] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-08-03 14:31:03 [http-nio-9090-exec-10] ERROR c.e.blog.service.UserServiceimpl - picture not found
+2022-08-03 14:31:16 [http-nio-9090-exec-8] INFO  c.e.blog.controller.BlogController - submitting blog from userid 20
+2022-08-03 14:31:16 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - user saved in user's profile
+2022-08-03 14:31:19 [http-nio-9090-exec-1] INFO  c.e.blog.controller.BlogController - request for all blogs
+2022-08-03 14:31:19 [http-nio-9090-exec-1] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
+2022-08-03 14:31:19 [http-nio-9090-exec-1] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
+2022-08-03 14:31:19 [http-nio-9090-exec-9] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-08-03 14:31:19 [http-nio-9090-exec-9] ERROR c.e.blog.service.UserServiceimpl - picture not found
+2022-08-03 14:31:19 [http-nio-9090-exec-3] INFO  c.e.blog.controller.BlogController - request for all blogs
+2022-08-03 14:31:19 [http-nio-9090-exec-3] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
+2022-08-03 14:31:19 [http-nio-9090-exec-3] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
+2022-08-03 14:31:19 [http-nio-9090-exec-2] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-08-03 14:31:19 [http-nio-9090-exec-5] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-08-03 14:31:19 [http-nio-9090-exec-5] ERROR c.e.blog.service.UserServiceimpl - picture not found
+2022-08-03 14:31:19 [http-nio-9090-exec-6] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-08-03 14:31:19 [http-nio-9090-exec-6] ERROR c.e.blog.service.UserServiceimpl - picture not found
+2022-08-03 14:31:19 [http-nio-9090-exec-2] ERROR c.e.blog.service.UserServiceimpl - picture not found
+2022-08-03 14:31:22 [http-nio-9090-exec-10] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-08-03 14:31:22 [http-nio-9090-exec-10] ERROR c.e.blog.service.UserServiceimpl - picture not found
+2022-08-03 14:31:26 [http-nio-9090-exec-4] INFO  c.e.blog.controller.VoteController - voting start
+2022-08-03 14:31:26 [http-nio-9090-exec-4] INFO  c.e.blog.service.VoteServiceimpl - vote complete for user 20
+2022-08-03 14:31:30 [http-nio-9090-exec-8] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-08-03 14:31:30 [http-nio-9090-exec-8] ERROR c.e.blog.service.UserServiceimpl - picture not found
+2022-08-03 14:31:34 [http-nio-9090-exec-1] INFO  c.e.blog.controller.BlogController - Edit started for blog 16 by user 20
+2022-08-03 14:31:34 [http-nio-9090-exec-1] INFO  c.e.blog.service.BlogServiceimpl - Last edited date of this blog was 03-08-2022
+2022-08-03 14:31:34 [http-nio-9090-exec-1] INFO  c.e.blog.service.BlogServiceimpl - blog edited successfully on 03-08-2022
+2022-08-03 14:31:37 [http-nio-9090-exec-5] INFO  c.e.blog.controller.BlogController - request for all blogs
+2022-08-03 14:31:37 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
+2022-08-03 14:31:37 [http-nio-9090-exec-2] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-08-03 14:31:37 [http-nio-9090-exec-2] ERROR c.e.blog.service.UserServiceimpl - picture not found
+2022-08-03 14:31:37 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
+2022-08-03 14:31:37 [http-nio-9090-exec-6] INFO  c.e.blog.controller.BlogController - request for all blogs
+2022-08-03 14:31:37 [http-nio-9090-exec-6] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
+2022-08-03 14:31:37 [http-nio-9090-exec-6] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
+2022-08-03 14:31:37 [http-nio-9090-exec-3] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-08-03 14:31:37 [http-nio-9090-exec-3] ERROR c.e.blog.service.UserServiceimpl - picture not found
+2022-08-03 14:31:37 [http-nio-9090-exec-10] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-08-03 14:31:37 [http-nio-9090-exec-7] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-08-03 14:31:37 [http-nio-9090-exec-7] ERROR c.e.blog.service.UserServiceimpl - picture not found
+2022-08-03 14:31:37 [http-nio-9090-exec-10] ERROR c.e.blog.service.UserServiceimpl - picture not found
+2022-08-03 14:31:40 [http-nio-9090-exec-4] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-08-03 14:31:40 [http-nio-9090-exec-4] ERROR c.e.blog.service.UserServiceimpl - picture not found
+2022-08-03 14:31:44 [http-nio-9090-exec-9] WARN  c.e.blog.controller.BlogController - delete blog request for id 16
+2022-08-03 14:31:44 [http-nio-9090-exec-9] INFO  c.e.blog.service.BlogServiceimpl - blog deleted successfully
+2022-08-03 14:31:46 [http-nio-9090-exec-1] INFO  c.e.blog.controller.BlogController - request for all blogs
+2022-08-03 14:31:46 [http-nio-9090-exec-1] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
+2022-08-03 14:31:46 [http-nio-9090-exec-1] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
+2022-08-03 14:31:46 [http-nio-9090-exec-2] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-08-03 14:31:46 [http-nio-9090-exec-2] ERROR c.e.blog.service.UserServiceimpl - picture not found
+2022-08-03 14:31:46 [http-nio-9090-exec-5] INFO  c.e.blog.controller.BlogController - request for all blogs
+2022-08-03 14:31:46 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
+2022-08-03 14:31:46 [http-nio-9090-exec-5] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
+2022-08-03 14:31:46 [http-nio-9090-exec-10] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-08-03 14:31:46 [http-nio-9090-exec-7] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-08-03 14:31:46 [http-nio-9090-exec-7] ERROR c.e.blog.service.UserServiceimpl - picture not found
+2022-08-03 14:31:46 [http-nio-9090-exec-10] ERROR c.e.blog.service.UserServiceimpl - picture not found
+2022-08-03 14:31:46 [http-nio-9090-exec-3] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-08-03 14:31:46 [http-nio-9090-exec-3] ERROR c.e.blog.service.UserServiceimpl - picture not found
+2022-08-03 14:31:53 [http-nio-9090-exec-6] INFO  c.e.blog.controller.BlogController - getting blog of the day
+2022-08-03 14:31:53 [http-nio-9090-exec-6] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
+2022-08-03 14:31:53 [http-nio-9090-exec-4] INFO  c.e.blog.service.UserServiceimpl - serving picture
+2022-08-03 14:31:53 [http-nio-9090-exec-4] ERROR c.e.blog.service.UserServiceimpl - picture not found
+2022-08-03 14:31:53 [http-nio-9090-exec-8] INFO  c.e.blog.controller.BlogController - getting blog of the day
+2022-08-03 14:31:53 [http-nio-9090-exec-8] INFO  c.e.blog.service.BlogServiceimpl - fetch blog of the day!!
+2022-08-03 14:42:28 [main] INFO  c.e.blog.repository.BlogRepoTest - Starting BlogRepoTest using Java 11.0.11 on DESKTOP-TQDLO7J with PID 10720 (started by Subhankar in C:\Users\Subhankar\Desktop\Project\BlogFactory\BlogFactory\blog)
+2022-08-03 14:42:28 [main] INFO  c.e.blog.repository.BlogRepoTest - No active profile set, falling back to 1 default profile: "default"
+2022-08-03 14:42:32 [main] INFO  c.e.blog.repository.BlogRepoTest - Started BlogRepoTest in 4.968 seconds (JVM running for 6.711)
+2022-08-03 14:44:13 [main] INFO  c.e.blog.repository.BlogRepoTest - Starting BlogRepoTest using Java 11.0.11 on DESKTOP-TQDLO7J with PID 13812 (started by Subhankar in C:\Users\Subhankar\Desktop\Project\BlogFactory\BlogFactory\blog)
+2022-08-03 14:44:13 [main] INFO  c.e.blog.repository.BlogRepoTest - No active profile set, falling back to 1 default profile: "default"
+2022-08-03 14:44:17 [main] INFO  c.e.blog.repository.BlogRepoTest - Started BlogRepoTest in 4.706 seconds (JVM running for 6.503)
+2022-08-03 14:44:51 [main] INFO  c.e.blog.repository.BlogRepoTest - Starting BlogRepoTest using Java 11.0.11 on DESKTOP-TQDLO7J with PID 12528 (started by Subhankar in C:\Users\Subhankar\Desktop\Project\BlogFactory\BlogFactory\blog)
+2022-08-03 14:44:51 [main] INFO  c.e.blog.repository.BlogRepoTest - No active profile set, falling back to 1 default profile: "default"
+2022-08-03 14:44:55 [main] INFO  c.e.blog.repository.BlogRepoTest - Started BlogRepoTest in 4.478 seconds (JVM running for 6.276)
+2022-08-03 19:48:02 [main] INFO  c.e.blog.repository.BlogRepoTest - Starting BlogRepoTest using Java 11.0.11 on DESKTOP-TQDLO7J with PID 16332 (started by Subhankar in C:\Users\Subhankar\Desktop\Project\BlogFactory\BlogFactory\blog)
+2022-08-03 19:48:02 [main] INFO  c.e.blog.repository.BlogRepoTest - No active profile set, falling back to 1 default profile: "default"
+2022-08-03 19:48:06 [main] INFO  c.e.blog.repository.BlogRepoTest - Started BlogRepoTest in 4.251 seconds (JVM running for 5.937)
+2022-08-03 20:11:51 [main] ERROR c.e.blog.service.UserServiceimpl - registration failed due to java.lang.NullPointerException
+2022-08-03 20:21:29 [main] ERROR c.e.blog.service.UserServiceimpl - registration failed due to java.lang.NullPointerException
+2022-08-03 20:27:37 [main] ERROR c.e.blog.service.UserServiceimpl - registration failed due to java.lang.NullPointerException
+2022-08-03 20:31:12 [main] INFO  c.e.blog.service.UserServiceimpl - user registered successfully with credential User(id=1, name=testUser1, email=test1@gmail.com, mobile=4434353435, userimg=null, username=testUser123, password=hello@123, blogs=null) 
+2022-08-03 20:33:46 [main] INFO  c.e.blog.service.UserServiceimpl - user registered successfully with credential User(id=1, name=testUser1, email=test1@gmail.com, mobile=4434353435, userimg=null, username=testUser123, password=hello@123, blogs=null) 
+2022-08-03 20:34:47 [main] INFO  c.e.blog.service.UserServiceimpl - user registered successfully with credential User(id=1, name=testUser1, email=test1@gmail.com, mobile=4434353435, userimg=null, username=testUser123, password=hello@123, blogs=null) 
+2022-08-03 20:43:03 [main] INFO  c.e.blog.service.UserServiceimpl - user registered successfully with credential User(id=1, name=testUser1, email=test1@gmail.com, mobile=4434353435, userimg=null, username=testUser123, password=hello@123, blogs=null) 
+2022-08-03 21:06:52 [main] ERROR c.e.blog.service.BlogServiceimpl - blog can't saved due to java.lang.NullPointerException
+2022-08-03 21:09:04 [main] ERROR c.e.blog.service.BlogServiceimpl - blog can't saved due to java.lang.NullPointerException
+2022-08-03 21:11:02 [main] ERROR c.e.blog.service.BlogServiceimpl - blog can't saved due to java.lang.NullPointerException
+2022-08-03 21:13:06 [main] ERROR c.e.blog.service.BlogServiceimpl - blog can't saved due to java.lang.NullPointerException
+2022-08-03 21:14:38 [main] ERROR c.e.blog.service.BlogServiceimpl - blog can't saved due to java.lang.NullPointerException
+2022-08-03 21:16:58 [main] ERROR c.e.blog.service.BlogServiceimpl - blog can't saved due to java.lang.NullPointerException
+2022-08-03 21:17:37 [main] ERROR c.e.blog.service.BlogServiceimpl - blog can't saved due to java.lang.NullPointerException
+2022-08-03 21:22:09 [main] ERROR c.e.blog.service.BlogServiceimpl - blog can't saved due to org.mockito.exceptions.misusing.UnfinishedStubbingException: 
+Unfinished stubbing detected here:
+-> at com.example.blog.service.BlogServiceimplTest.addblog(BlogServiceimplTest.java:79)
+
+E.g. thenReturn() may be missing.
+Examples of correct stubbing:
+    when(mock.isOk()).thenReturn(true);
+    when(mock.isOk()).thenThrow(exception);
+    doThrow(exception).when(mock).someVoidMethod();
+Hints:
+ 1. missing thenReturn()
+ 2. you are trying to stub a final method, which is not supported
+ 3. you are stubbing the behaviour of another mock inside before 'thenReturn' instruction is completed
+
+2022-08-03 21:23:32 [main] ERROR c.e.blog.service.BlogServiceimpl - blog can't saved due to java.lang.NullPointerException
+2022-08-03 21:32:26 [main] INFO  c.e.blog.service.BlogServiceimpl - user saved in user's profile
+2022-08-03 21:35:05 [main] INFO  c.e.blog.service.BlogServiceimpl - user saved in user's profile
+2022-08-03 21:35:48 [main] INFO  c.e.blog.service.BlogServiceimpl - user saved in user's profile
+2022-08-03 23:05:22 [main] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
+2022-08-03 23:05:22 [main] ERROR c.e.blog.service.BlogServiceimpl - failed to fetch
+2022-08-03 23:08:23 [main] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
+2022-08-03 23:08:47 [main] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
+2022-08-03 23:18:07 [main] ERROR c.e.blog.service.BlogServiceimpl - failed to fetch
+2022-08-03 23:18:40 [main] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
+2022-08-03 23:18:40 [main] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
+2022-08-03 23:23:59 [main] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
+2022-08-03 23:23:59 [main] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs
+2022-08-03 23:24:55 [main] INFO  c.e.blog.service.BlogServiceimpl - fetching all blogs....
+2022-08-03 23:24:55 [main] INFO  c.e.blog.service.BlogServiceimpl - fetched all blogs

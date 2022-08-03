@@ -6,7 +6,7 @@ import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
-@Getter @Setter @NoArgsConstructor @ToString @AllArgsConstructor
+@Getter @Setter @NoArgsConstructor @ToString @AllArgsConstructor @Builder
 @Entity
 public class User {
     @Id
