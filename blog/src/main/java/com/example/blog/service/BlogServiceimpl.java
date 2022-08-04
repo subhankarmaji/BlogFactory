@@ -83,10 +83,11 @@ public class BlogServiceimpl implements BlogService{
     public ResponseEntity<?> getBlogOfTheDay() {
         try {
             List<Blog> blogs = this.blogRepo.findAll();
+            if(blogs.isEmpty()) return new ResponseEntity<>(new Blogpojo(),HttpStatus.OK);
             int mostVote = 0;
             Blog blogOfTheDay = null;
             for (Blog b : blogs) {
-                if (mostVote < b.getVotecount()) {
+                if (mostVote <= b.getVotecount()) {
                     mostVote = b.getVotecount();
                     blogOfTheDay = b;
                 }

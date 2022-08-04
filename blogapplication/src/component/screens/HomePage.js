@@ -10,11 +10,11 @@ import {base_url} from "../api/Bootapi";
 
 
 function HomePage(){
+
     const getBlogOftheDay=()=>{
         axios.get(`${base_url}/blogOfTheDay`).then(
           (response)=>{
             setBlogOftheDay(response.data);
-          
           },(error)=>{
             console.log(error);
           }
@@ -61,9 +61,14 @@ function HomePage(){
                         <h4 style={{fontFamily:"Arima"}}>Blog Of The Day</h4>
                     </div>
                     <div className="d-flex justify-content-center mt-5">
+                    {blogOftheDay.id===0?
+                    <h1 style={{fontFamily:"Arima",fontWeight:"bold", marginLeft:"40px",color:"#3F4E4F"}}>no blog available now!</h1>
+                    :
+
                     <BlogCard
                         data={blogOftheDay}
                     />
+                    }
                     </div>
                 </div>
                 <div  style={{marginTop:"10%"}}>

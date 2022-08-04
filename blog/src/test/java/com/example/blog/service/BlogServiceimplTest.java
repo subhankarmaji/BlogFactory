@@ -67,6 +67,7 @@ class BlogServiceimplTest {
         blog1.setDescription("this is test blog");
 
 
+
         blogList = new ArrayList<>();
         blogList.add(blog1);
 
@@ -119,14 +120,24 @@ class BlogServiceimplTest {
 
     @Test
     void getBlogOfTheDay() {
-        
+        given(blogRepo.findAll()).willReturn(blogList);
+        given(userRepo.findById(blog1.getUid())).willReturn(Optional.of(user1));
+        ResponseEntity<?> response = blogServiceimpl.getBlogOfTheDay();
+        assertThat(response.toString()).isEqualTo(ResponseEntity.ok().body(blogpojo).toString());
     }
 
     @Test
     void editBlog() {
+        given(blogRepo.findById(blog1.getId())).willReturn(Optional.of(blog1));
+        given(blogRepo.save(blog1)).willReturn(blog1);
+        ResponseEntity<String> response = blogServiceimpl.editBlog(blog1);
+        assertThat(response.toString()).isEqualTo(ResponseEntity.ok().body("blog edited successfully").toString());
     }
 
     @Test
     void deleteBlog() {
+        given(blogRepo.findById(blog1.getId())).willReturn(Optional.of(blog1));
+        ResponseEntity<String> response = blogServiceimpl.deleteBlog(blog1.getId());
+        assertThat(response.toString()).isEqualTo(ResponseEntity.ok().body("deleted").toString());
     }
 }
